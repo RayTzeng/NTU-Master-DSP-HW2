@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash +v
 
 export KALDI_REP_PATH="/opt/kaldi"
 

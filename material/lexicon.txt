@@ -1,3 +1,5 @@
+<s> sil
+</s> sil
 零 liN
 一 #i
 二 #er
