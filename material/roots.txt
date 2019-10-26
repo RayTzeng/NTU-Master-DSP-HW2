@@ -1,0 +1,11 @@
+not-shared not-split sil
+shared split liN
+shared split #i
+shared split #er
+shared split san
+shared split sy
+shared split #u
+shared split liou
+shared split qi
+shared split ba
+shared split jiou
