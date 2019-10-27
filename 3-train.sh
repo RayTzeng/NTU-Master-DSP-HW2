@@ -1,14 +1,7 @@
 #!/bin/bash
 
-if [ -f setup.sh ]; then
-  . setup.sh;
-else
-  echo "ERROR: setup.sh is missing!";
-  exit 1;
-fi
-
 dir=exp/mono
-feat=$train_feat_setup
+feat=feat/train.39.cmvn.ark
 
 numiters=10                                   # Number of iterations of training
 maxiterinc=5                                 # Last iter to increase #Gauss on.
@@ -16,13 +9,12 @@ numgauss=5                                  # Initial num-Gauss (must be more th
 totgauss=30                                 # Target #Gaussians.
 incgauss=$[($totgauss-$numgauss)/$maxiterinc] # per-iter increment for #Gauss
 realign_iters="1 2 3 4 5 6 7 8 9 10";
-$realign_iters="1 2 3 4 5 6 7 8 9 10 12 14 16 18 20 23 26 29 32 35 38";
+#realign_iters="1 2 3 4 5 6 7 8 9 10 12 14 16 18 20 23 26 29 32 35 38";
 scale_opts="--transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1"
 
 mkdir -p $dir
 mkdir -p $dir/log
-
-utility/sym2int.pl train/phones.txt train/phonemap.txt > $dir/phonesets.int
+utility/sym2int.pl train/phones.txt train/phoneset.txt > $dir/phonesets.int
 shared_phones_opt="--shared-phones=$dir/phonesets.int"
 dim=`feat-to-dim --print-args=false "ark,s,cs:$feat" - 2> /dev/null`
 
