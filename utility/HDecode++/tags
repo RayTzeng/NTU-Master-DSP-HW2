@@ -1,0 +1,999 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AccumulateStats	HLVRec-misc.c	/^void AccumulateStats (DecoderInst *dec)$/;"	f
+ActivateNode	HLVRec.c	/^static LexNodeInst *ActivateNode (DecoderInst *dec, LexNode *ln)$/;"	f	file:
+AddLink	HLVNet.c	/^void AddLink (MemHeap *heap, TLexNode *start, TLexNode *end)$/;"	f
+AddMonoPron_S	HLVNet.c	/^STLexNode *AddMonoPron_S (MemHeap *heap, STLexNode *root, int n, LabId *p)$/;"	f
+AddPronProbs	HLVRec-propagate.c	/^static void AddPronProbs (DecoderInst *dec, TokenSet *ts, int var)$/;"	f	file:
+AddSTLexLink	HLVNet.c	/^STLexLink *AddSTLexLink (MemHeap *heap, STLexNode *start, STLexNode *end)$/;"	f
+AllocLMNodeCache	HLVRec-LM.c	/^LMNodeCache* AllocLMNodeCache (LMCache *cache, int lmlaIdx)$/;"	f
+AltPathList2Path	HLVRec-traceback.c	/^WordendHyp *AltPathList2Path (DecoderInst *dec, AltWordendHyp *alt, PronId pron)$/;"	f
+AltWordendHyp	HLVRec.h	/^typedef struct _AltWordendHyp AltWordendHyp;\/* records alternatives for lattice tracback *\/$/;"	t	typeref:struct:_AltWordendHyp
+AnalyseSearchSpace	HDecode.cpp	/^void AnalyseSearchSpace (DecoderInst *dec, BestInfo *bestInfo)$/;"	f
+AnalyseSearchSpace	HDecode.mod.c	/^void AnalyseSearchSpace (DecoderInst *dec, BestInfo *bestInfo)$/;"	f
+AssignWEIds	HLVNet.c	/^void AssignWEIds(TLexNet *tnet)$/;"	f
+BAddSearch	HLVNet.c	/^static int BAddSearch (Ptr elem, int *np, Ptr **ap)$/;"	f	file:
+BIN_ARPA_HAS_BOWT	HLVLM.h	170;"	d
+BIN_ARPA_INT_LMID	HLVLM.h	171;"	d
+BSearch	HLVNet.c	/^static int BSearch (Ptr elem, int n, Ptr *array)$/;"	f	file:
+BUFLEN	HLVNet.c	272;"	d	file:
+BestInfo	HDecode.cpp	/^typedef struct _BestInfo BestInfo;$/;"	t	typeref:struct:_BestInfo	file:
+BestInfo	HDecode.mod.c	/^typedef struct _BestInfo BestInfo;$/;"	t	typeref:struct:_BestInfo	file:
+BestTokSet	HLVRec-traceback.c	/^TokenSet *BestTokSet (DecoderInst *dec)$/;"	f
+BuildForceLat	HLVRec-traceback.c	/^WordendHyp *BuildForceLat (DecoderInst *dec)$/;"	f
+BuildLatAltList	HLVRec-traceback.c	/^AltWordendHyp *BuildLatAltList (DecoderInst *dec, TokenSet *ts, Boolean useLM)$/;"	f
+BuildLattice	HLVRec-traceback.c	/^WordendHyp *BuildLattice (DecoderInst *dec)$/;"	f
+CC	Makefile	/^CC      = 	g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS  := 	-DNO_LAT_LM -ansi -D_SVID_SOURCE -DOSS_AUDIO -D'ARCH="x86_64"' -I$(inc) $/;"	m
+CHECK_LIB	Makefile	/^CHECK_LIB = ..\/HTKLib++\/HTKLiblv.a ..\/lib\/libvulcan.a$/;"	m
+COLLECT_STATS	config.h	31;"	d
+COLLECT_STATS_ACTIVATION	config.h	32;"	d
+CalcPhonePost	HLVRec-misc.c	/^void CalcPhonePost (DecoderInst *dec)$/;"	f
+CheckLAlign	HLVRec-traceback.c	/^void CheckLAlign (DecoderInst *dec, Lattice *lat)$/;"	f
+CheckLRTransP	HLVRec.c	/^static Boolean CheckLRTransP (SMatrix transP)$/;"	f	file:
+CheckTokenSetId	HLVRec-misc.c	/^static void CheckTokenSetId (DecoderInst *dec, TokenSet *ts1, TokenSet *ts2)$/;"	f	file:
+CheckTokenSetOrder	HLVRec-misc.c	/^void CheckTokenSetOrder (DecoderInst *dec, TokenSet *ts)$/;"	f
+CleanDecoderInst	HLVRec.c	/^void CleanDecoderInst (DecoderInst *dec)$/;"	f
+CollectPhoneStats	HLVNet.c	/^void CollectPhoneStats (MemHeap *heap, TLexNet *net)$/;"	f
+CombinePaths	HLVRec-misc.c	/^static WordendHyp *CombinePaths (DecoderInst *dec, RelToken *winner, RelToken *loser, LogFloat diff)$/;"	f	file:
+CompLMlaNode	HLVNet.h	/^} CompLMlaNode;$/;"	t	typeref:struct:_CompLMlaNode
+CompareBasePron	HLVNet.c	/^Boolean CompareBasePron (Pron b, Pron p)$/;"	f
+ConvertHSet	HLVModel.c	/^StateInfo_lv *ConvertHSet(MemHeap *heap, HMMSet *hset, Boolean useHModel)$/;"	f
+ConvertSilDict	HLVNet.c	/^void ConvertSilDict (Vocab *voc, LabId spLab, LabId silLab, $/;"	f
+ConvertTLex2Lex	HLVNet.c	/^LexNet *ConvertTLex2Lex (MemHeap *heap, TLexNet *tnet)$/;"	f
+CreateAnodes	HLVNet.c	/^void CreateAnodes (MemHeap *heap, TLexNet *net)$/;"	f
+CreateBYnodes	HLVNet.c	/^void CreateBYnodes (MemHeap *heap, TLexNet *net)$/;"	f
+CreateBestInfo	HDecode.cpp	/^BestInfo *CreateBestInfo (MemHeap *heap, char *fn, HTime frameDur)$/;"	f
+CreateBestInfo	HDecode.mod.c	/^BestInfo *CreateBestInfo (MemHeap *heap, char *fn, HTime frameDur)$/;"	f
+CreateBoNGram	HLVLM.c	/^FSLM_ngram *CreateBoNGram (MemHeap *heap, int vocSize, int counts[NSIZE])$/;"	f
+CreateBoundary	HLVNet.c	/^TLexNode *CreateBoundary (MemHeap *heap, TLexNet *tnet, LabId labid, int modLayer, int weLayer)$/;"	f
+CreateCompLMLA	HLVNet.c	/^static void CreateCompLMLA (MemHeap *heap, LMlaTree *laTree, TLexNet *tnet)$/;"	f	file:
+CreateDecoderInst	HLVRec.c	/^DecoderInst *CreateDecoderInst(HMMSet *hset, FSLM *lm, int nTok, Boolean latgen, $/;"	f
+CreateLM	HLVLM.c	/^FSLM *CreateLM (MemHeap *heap, char *fn, char *startWord, char *endWord, Vocab *vocab)$/;"	f
+CreateLMCache	HLVRec-LM.c	/^static LMCache *CreateLMCache (DecoderInst *dec, MemHeap *heap)$/;"	f	file:
+CreateLMfromLat	HLVLM.c	/^FSLM *CreateLMfromLat (MemHeap *heap, char *latfn, Lattice *lat, Vocab *vocab)$/;"	f
+CreateLexNet	HLVNet.c	/^LexNet *CreateLexNet (MemHeap *heap, Vocab *voc, HMMSet *hset, $/;"	f
+CreateLexNet_S	HLVNet.c	/^LexNet *CreateLexNet_S (MemHeap *heap, Vocab *voc, HMMSet *hset, char *startWord, char *endWord)$/;"	f
+CreateOutPCache	HLVRec-outP.c	/^static OutPCache *CreateOutPCache (MemHeap *heap, HMMSet *hset, int block)$/;"	f	file:
+CreateSILnodes	HLVNet.c	/^void CreateSILnodes (MemHeap *heap, TLexNet *net)$/;"	f
+CreateStartEnd	HLVNet.c	/^void CreateStartEnd (MemHeap *heap, TLexNet *tnet)$/;"	f
+CreateZnodes	HLVNet.c	/^void CreateZnodes (MemHeap *heap, TLexNet *net)$/;"	f
+DEBUG_LABEL_NET	HLVNet.c	55;"	d	file:
+DIR_BACKW	HLVNet.c	1730;"	d	file:
+DIR_FORW	HLVNet.c	1729;"	d	file:
+DeactivateNode	HLVRec.c	/^static void DeactivateNode (DecoderInst *dec, LexNode *ln)$/;"	f	file:
+Debug_Check_LMhashtab	HLVLM.c	/^void Debug_Check_LMhashtab(FSLM_ngram *nglm)$/;"	f
+Debug_Check_Score	HLVRec-misc.c	/^void Debug_Check_Score (DecoderInst *dec)$/;"	f
+Debug_DumpNet	HLVRec-misc.c	/^void Debug_DumpNet (LexNet *net)$/;"	f
+DecoderInst	HLVRec.h	/^typedef struct _DecoderInst DecoderInst;  \/* contains all state information about one instance$/;"	t	typeref:struct:_DecoderInst
+DoRecognition	HDecode.cpp	/^void DoRecognition (DecoderInst *dec, char *fn)$/;"	f
+DoRecognition	HDecode.mod.c	/^void DoRecognition (DecoderInst *dec, char *fn)$/;"	f
+Done	HDecode.cpp	/^Done(DecoderInst* dec) {$/;"	f
+FLOAT_TO_NGLM_PROB	HLVLM.h	124;"	d
+FLOAT_TO_NGLM_PROB	HLVLM.h	132;"	d
+FSLM	HLVLM.h	/^typedef struct _FSLM FSLM;$/;"	t	typeref:struct:_FSLM
+FSLMType	HLVLM.h	/^typedef enum {fslm_ngram, fslm_latlm} FSLMType;$/;"	t	typeref:enum:__anon1
+FSLM_LatArc	HLVLM.h	/^} FSLM_LatArc;$/;"	t	typeref:struct:_FSLM_LatArc
+FSLM_LatNode	HLVLM.h	/^typedef struct _FSLM_LatNode  FSLM_LatNode;$/;"	t	typeref:struct:_FSLM_LatNode
+FSLM_latlm	HLVLM.h	/^typedef struct _FSLM_latlm FSLM_latlm;$/;"	t	typeref:struct:_FSLM_latlm
+FSLM_ngram	HLVLM.h	/^typedef struct _FSLM_ngram FSLM_ngram;$/;"	t	typeref:struct:_FSLM_ngram
+FVTransModels	HDecode.cpp	/^void FVTransModels (HMMSet *hset, BlockMatrix transMat)$/;"	f
+FVTransModels	HDecode.mod.c	/^void FVTransModels (HMMSet *hset, BlockMatrix transMat)$/;"	f
+FakeSEModelAlign	HLVRec-traceback.c	/^void FakeSEModelAlign(Lattice *lat, LArc *la)$/;"	f
+FakeSEpath	HLVRec-traceback.c	/^AltWordendHyp *FakeSEpath (DecoderInst *dec, RelToken *tok, Boolean useLM)$/;"	f
+Fast_LMLA_LMState	HLVLM.c	/^LMState Fast_LMLA_LMState (FSLM *lm, LMState src)$/;"	f
+FindAddTLCN	HLVNet.c	/^TLexConNode *FindAddTLCN (MemHeap *heap, TLexNet *net, int layerId, int *n, TLexConNode *lcnHashTab[], LabId lc, LabId rc)$/;"	f
+FindAddTLexNode	HLVNet.c	/^TLexNode *FindAddTLexNode (MemHeap *heap, TLexNet *net, int layerId, int *n, TLexNode *lnHashTab[], LexNodeType type , HLink hmm)$/;"	f
+FindContexts_s	HLVNet.c	/^void FindContexts_s (HMMSet *hset, STLexNode *n)$/;"	f
+FindHMM	HLVNet.c	/^HLink FindHMM (HMMSet *hset, LabId id)$/;"	f
+FindHMMLink	HLVNet.c	/^TLexLink *FindHMMLink (TLexNode *ln, HLink hmm)$/;"	f
+FindLatArc	HLVLM.c	/^FSLM_LatArc *FindLatArc (FSLM_LatArc *low, FSLM_LatArc *hi, PronId pronId)$/;"	f
+FindLexNetLab	HDecode.cpp	/^BestInfo *FindLexNetLab (MemHeap *heap, LexNode *ln, LLink ll, HTime frameDur)$/;"	f
+FindLexNetLab	HDecode.mod.c	/^BestInfo *FindLexNetLab (MemHeap *heap, LexNode *ln, LLink ll, HTime frameDur)$/;"	f
+FindMinLatArc	HLVLM.c	/^FSLM_LatArc *FindMinLatArc (FSLM_LatArc *low, FSLM_LatArc *hi, PronId minPron)$/;"	f
+FindMinSEntry	HLVLM.c	/^SEntry *FindMinSEntry (SEntry *se, int nse, PronId minPron)$/;"	f
+FindMinSEntryP	HLVLM.c	/^static SEntry *FindMinSEntryP (SEntry *low, SEntry *hi, PronId minPron)$/;"	f	file:
+FindSEntry	HLVLM.c	/^static SEntry *FindSEntry (SEntry *se, PronId pronId, int l, int h)$/;"	f	file:
+FindTriphone	HLVNet.c	/^HLink FindTriphone (HMMSet *hset, LabId a, LabId b, LabId c)$/;"	f
+FreeLMCache	HLVRec-LM.c	/^static void FreeLMCache (LMCache *cache)$/;"	f	file:
+GC_ALTPATH_PREV	HLVRec-GC.c	51;"	d	file:
+GarbageCollectPaths	HLVRec-GC.c	/^static void GarbageCollectPaths (DecoderInst *dec)$/;"	f	file:
+GetLMEntry	HLVLM.c	/^static void GetLMEntry (FSLM_ngram *nglm, Source *src, Boolean bin, int n, LMId *ndx, $/;"	f	file:
+GetLMWord	HLVLM.c	/^static void GetLMWord (Source *src, char *buf, Boolean raw)$/;"	f	file:
+GetNEntry	HLVLM.c	/^NEntry *GetNEntry (FSLM_ngram *nglm, LMId ndx[NSIZE], Boolean create)$/;"	f
+GetProb	HLVLM.c	/^static LogFloat GetProb(Source *src, Boolean bin)$/;"	f	file:
+GetSenoneIndexMapping	HDecode.cpp	/^GetSenoneIndexMapping(const HMMSet& hset,$/;"	f
+HASH1	HLVNet.c	211;"	d	file:
+HASH2	HLVNet.c	212;"	d	file:
+HEADER	Makefile	/^HEADER = HLVLM.h  HLVModel.h  HLVNet.h  HLVRec.h config.h $/;"	m
+HLVMODEL_BLOCK_BASE	HLVModel.h	137;"	d
+HLVMODEL_BLOCK_GCONST	HLVModel.h	140;"	d
+HLVMODEL_BLOCK_GCONST_OFFSET	HLVModel.h	138;"	d
+HLVMODEL_BLOCK_INVVAR_OFFSET	HLVModel.h	145;"	d
+HLVMODEL_BLOCK_MEAN_OFFSET	HLVModel.h	144;"	d
+HLVMODEL_BLOCK_MIXW	HLVModel.h	141;"	d
+HLVMODEL_BLOCK_MIXW_OFFSET	HLVModel.h	139;"	d
+HLVMODEL_BLOCK_MPDF	HLVModel.h	143;"	d
+HLVMODEL_BLOCK_NMIX	HLVModel.h	142;"	d
+HLVMODEL_VEC_ALIGN	HLVModel.h	97;"	d
+HLVMODEL_VEC_PAD	HLVModel.h	98;"	d
+HTKLIB	Makefile	/^HTKLIB = $(inc)\/HTKLiblv.a $/;"	m
+Handle1PhonePron	HLVNet.c	/^void Handle1PhonePron (MemHeap *heap, TLexNet *net, Pron pron)$/;"	f
+HandleSpSkipLayer	HLVRec-propagate.c	/^void HandleSpSkipLayer (DecoderInst *dec, LexNodeInst *inst)$/;"	f
+HandleWordend	HLVRec-propagate.c	/^static void HandleWordend (DecoderInst *dec, LexNode *ln)$/;"	f	file:
+HourMinSec	HDecode.cpp	/^HourMinSec(const float& sec) {$/;"	f
+INSTALL	Makefile	/^INSTALL = 	\/usr\/bin\/install -c$/;"	m
+InitDecoderInst	HLVRec.c	/^void InitDecoderInst (DecoderInst *dec, LexNet *net, HTime sampRate, LogFloat beamWidth, $/;"	f
+InitLMlaTree	HLVNet.c	/^static void InitLMlaTree(LexNet *net, TLexNet *tnet)$/;"	f	file:
+InitLVLM	HLVLM.c	/^void InitLVLM (void)$/;"	f
+InitLVModel	HLVModel.c	/^void InitLVModel(void)$/;"	f
+InitLVNet	HLVNet.c	/^void InitLVNet(void)$/;"	f
+InitLVRec	HLVRec.c	/^void InitLVRec(void)$/;"	f
+InitPhonePost	HLVRec-misc.c	/^void InitPhonePost (DecoderInst *dec)$/;"	f
+Initialise	HDecode.cpp	/^DecoderInst *Initialise (void)$/;"	f
+Initialise	HDecode.mod.c	/^DecoderInst *Initialise (void)$/;"	f
+InitializeAcousticFeature	HDecode.cpp	/^InitializeAcousticFeature(DecoderInst* dec,$/;"	f
+InitializeExtraDataMembers	HDecode.cpp	/^InitializeExtraDataMembers(DecoderInst* dec) {$/;"	f
+InitializeGMM	HDecode.cpp	/^InitializeGMM(DecoderInst* dec,$/;"	f
+InitializeSGMM	HDecode.cpp	/^InitializeSGMM(DecoderInst* dec,$/;"	f
+InitializeSGMM2	HDecode.cpp	/^InitializeSGMM2(DecoderInst* dec,$/;"	f
+InitializeSenoneScoreTable	HDecode.cpp	/^InitializeSenoneScoreTable(DecoderInst* dec,$/;"	f
+LAYER_A	HLVNet.h	/^   LAYER_Z=0, LAYER_ZS=1, LAYER_SIL=2, LAYER_SA=3, LAYER_A=4, LAYER_AB=5,$/;"	e	enum:_LayerId
+LAYER_AB	HLVNet.h	/^   LAYER_Z=0, LAYER_ZS=1, LAYER_SIL=2, LAYER_SA=3, LAYER_A=4, LAYER_AB=5,$/;"	e	enum:_LayerId
+LAYER_BY	HLVNet.h	/^   LAYER_BY=6, LAYER_WE=7, LAYER_YZ=8$/;"	e	enum:_LayerId
+LAYER_SA	HLVNet.h	/^   LAYER_Z=0, LAYER_ZS=1, LAYER_SIL=2, LAYER_SA=3, LAYER_A=4, LAYER_AB=5,$/;"	e	enum:_LayerId
+LAYER_SIL	HLVNet.h	/^   LAYER_Z=0, LAYER_ZS=1, LAYER_SIL=2, LAYER_SA=3, LAYER_A=4, LAYER_AB=5,$/;"	e	enum:_LayerId
+LAYER_SIL_NTOK_SCALE	HLVRec.c	91;"	d	file:
+LAYER_WE	HLVNet.h	/^   LAYER_BY=6, LAYER_WE=7, LAYER_YZ=8$/;"	e	enum:_LayerId
+LAYER_YZ	HLVNet.h	/^   LAYER_BY=6, LAYER_WE=7, LAYER_YZ=8$/;"	e	enum:_LayerId
+LAYER_Z	HLVNet.h	/^   LAYER_Z=0, LAYER_ZS=1, LAYER_SIL=2, LAYER_SA=3, LAYER_A=4, LAYER_AB=5,$/;"	e	enum:_LayerId
+LAYER_ZS	HLVNet.h	/^   LAYER_Z=0, LAYER_ZS=1, LAYER_SIL=2, LAYER_SA=3, LAYER_A=4, LAYER_AB=5,$/;"	e	enum:_LayerId
+LAlignFromAltModpath	HLVRec-traceback.c	/^LAlign *LAlignFromAltModpath (DecoderInst *dec, MemHeap *heap,$/;"	f
+LAlignFromModpath	HLVRec-traceback.c	/^LAlign *LAlignFromModpath (DecoderInst *dec, MemHeap *heap,$/;"	f
+LEGACY_CUHTK2_MLLR	config.h	67;"	d
+LEX_CON_HASH_SIZE	HLVNet.h	130;"	d
+LEX_MOD_HASH_SIZE	HLVNet.h	131;"	d
+LIST_BLOCKSIZE	HLVNet.c	53;"	d	file:
+LMCACHE_NLA	HLVRec.h	330;"	d
+LMCache	HLVRec.h	/^typedef struct _LMCache LMCache;$/;"	t	typeref:struct:_LMCache
+LMCacheLA	HLVRec.h	/^typedef struct _LMCacheLA LMCacheLA;$/;"	t	typeref:struct:_LMCacheLA
+LMCacheLookaheadProb	HLVRec-LM.c	/^static LMTokScore LMCacheLookaheadProb (DecoderInst *dec, LMState lmState, $/;"	f	file:
+LMCacheState_hash	HLVRec-LM.c	/^static int LMCacheState_hash (LMState lmstate)$/;"	f	file:
+LMCacheTransProb	HLVRec-LM.c	/^static LMTokScore LMCacheTransProb (DecoderInst *dec, FSLM *lm, $/;"	f	file:
+LMId	config.h	/^typedef unsigned int LMId;$/;"	t
+LMIdMapper	HLVLM.c	/^static LMId LMIdMapper(FSLM_ngram *nglm, char *w)$/;"	f	file:
+LMInitial	HLVLM.c	/^LMState LMInitial (FSLM *lm)$/;"	f
+LMLACacheEntry	HLVRec.h	/^typedef  struct _LMLACacheEntry LMLACacheEntry;$/;"	t	typeref:struct:_LMLACacheEntry
+LMLA_CACHE_SIZE	HLVRec.h	263;"	d
+LMLA_HASH	HLVRec.h	264;"	d
+LMLA_nocache	HLVRec-LM.c	/^LMTokScore LMLA_nocache (DecoderInst *dec, LMState lmState, int lmlaIdx)$/;"	f
+LMLookAhead	HLVLM.c	/^LogFloat LMLookAhead (FSLM *lm, LMState src, PronId minPron, PronId maxPron)$/;"	f
+LMLookAhead_2gram	HLVLM.c	/^LogFloat LMLookAhead_2gram (FSLM *lm, LMState src, PronId minPron, PronId maxPron)$/;"	f
+LMLookAhead_3gram	HLVLM.c	/^LogFloat LMLookAhead_3gram (FSLM *lm, LMState src, PronId minPron, PronId maxPron)$/;"	f
+LMLookAhead_latlm	HLVLM.c	/^LogFloat LMLookAhead_latlm (FSLM *lm, LMState src, $/;"	f
+LMLookAhead_ngram	HLVLM.c	/^LogFloat LMLookAhead_ngram (FSLM *lm, LMState src, PronId minPron, PronId maxPron)$/;"	f
+LMNodeCache	HLVRec.h	/^typedef struct _LMNodeCache LMNodeCache;$/;"	t	typeref:struct:_LMNodeCache
+LMState	HLVLM.h	/^typedef Ptr LMState;$/;"	t
+LMTokScore	config.h	/^typedef LogFloat LMTokScore;$/;"	t
+LMTransProb	HLVLM.c	/^LogFloat LMTransProb (FSLM *lm, LMState src, PronId pronid, LMState *dest)$/;"	f
+LMTransProb_latlm	HLVLM.c	/^LogFloat LMTransProb_latlm (FSLM *lm, LMState src,$/;"	f
+LMTransProb_ngram	HLVLM.c	/^LogFloat LMTransProb_ngram (FSLM *lm, LMState src, PronId pronid, LMState *dest)$/;"	f
+LM_NGRAM_INT	config.h	42;"	d
+LMlaNode	HLVNet.h	/^} LMlaNode;$/;"	t	typeref:struct:_LMlaNode
+LMlaTree	HLVNet.h	/^typedef struct _LMlaTree LMlaTree;$/;"	t	typeref:struct:_LMlaTree
+LN10	HLVLM.c	/^const double LN10 = 2.30258509299404568;    \/* Defined to save recalculating it *\/$/;"	v
+LN_CON	HLVNet.h	/^  LN_WORDEND, LN_CON, LN_MODEL$/;"	e	enum:_LexNodeType
+LN_MODEL	HLVNet.h	/^  LN_WORDEND, LN_CON, LN_MODEL$/;"	e	enum:_LexNodeType
+LN_WORDEND	HLVNet.h	/^  LN_WORDEND, LN_CON, LN_MODEL$/;"	e	enum:_LexNodeType
+LOG_STREAM	HLVModel.h	33;"	d
+LOG_STREAM	HLVNet.h	53;"	d
+LOG_STREAM	HLVRec.h	40;"	d
+LatTraceBack	HLVRec-traceback.c	/^Lattice *LatTraceBack (MemHeap *heap, DecoderInst *dec)$/;"	f
+LatTraceBackCount	HLVRec-traceback.c	/^static void LatTraceBackCount (DecoderInst *dec, WordendHyp *path, int *nnodes, int *nlinks)$/;"	f	file:
+LayerId	HLVNet.h	/^} LayerId;$/;"	t	typeref:enum:_LayerId
+LayerStats	HLVRec-misc.c	/^typedef struct _LayerStats LayerStats;$/;"	t	typeref:struct:_LayerStats	file:
+LexNet	HLVNet.h	/^} LexNet;$/;"	t	typeref:struct:_LexNet
+LexNode	HLVNet.h	/^typedef struct _LexNode LexNode;$/;"	t	typeref:struct:_LexNode
+LexNodeInst	HLVNet.h	/^typedef struct _LexNodeInst LexNodeInst;        \/* structure defined in HLVRec *\/$/;"	t	typeref:struct:_LexNodeInst
+LexNodeType	HLVNet.h	/^} LexNodeType;$/;"	t	typeref:enum:_LexNodeType
+LoadFVTrans	HDecode.cpp	/^void LoadFVTrans (char *fn, BlockMatrix *transMat)$/;"	f
+LoadFVTrans	HDecode.mod.c	/^void LoadFVTrans (char *fn, BlockMatrix *transMat)$/;"	f
+MARKED_ALTPATH_P	HLVRec-GC.c	48;"	d	file:
+MARKED_MODPATH_P	HLVRec-GC.c	56;"	d	file:
+MARKED_PATH_P	HLVRec-GC.c	41;"	d	file:
+MARK_ALTPATH	HLVRec-GC.c	47;"	d	file:
+MARK_ALTPATH_MASK	HLVRec-GC.c	46;"	d	file:
+MARK_MODPATH	HLVRec-GC.c	55;"	d	file:
+MARK_MODPATH_MASK	HLVRec-GC.c	54;"	d	file:
+MARK_PATH	HLVRec-GC.c	40;"	d	file:
+MARK_PATH_MASK	HLVRec-GC.c	39;"	d	file:
+MAXBLOCKOBS	config.h	62;"	d
+MAX_LMID	HLVLM.h	95;"	d
+MMP_NBINS	HLVRec-propagate.c	1457;"	d	file:
+MODALIGN	config.h	56;"	d
+MODALIGN	config.h	59;"	d
+MarkAllProns	HLVNet.c	/^void MarkAllProns (Vocab *voc)$/;"	f
+MarkAllWords	HLVNet.c	/^void MarkAllWords (Vocab *voc)$/;"	f
+MarkAllWordsfromLat	HLVNet.c	/^void MarkAllWordsfromLat (Vocab *voc, Lattice *lat, Boolean silDict)$/;"	f
+MarkModPath	HLVRec-GC.c	/^static void MarkModPath (ModendHyp *m)$/;"	f	file:
+MarkPath	HLVRec-GC.c	/^static void MarkPath (WordendHyp *path)$/;"	f	file:
+MarkTokSet	HLVRec-GC.c	/^static void MarkTokSet (TokenSet *ts)$/;"	f	file:
+MergeTokSet	HLVRec-propagate.c	/^static void MergeTokSet (DecoderInst *dec, TokenSet *src, TokenSet *dest, $/;"	f	file:
+ModendHyp	HLVRec.h	/^typedef struct _ModendHyp ModendHyp;    \/* records model level tracback *\/$/;"	t	typeref:struct:_ModendHyp
+NBINS	HLVRec-propagate.c	236;"	d	file:
+NDEBUG	config.h	30;"	d
+NEntry	HLVLM.h	/^} NEntry;$/;"	t	typeref:struct:nentry
+NGHSIZE1	HLVLM.c	1453;"	d	file:
+NGHSIZE2	HLVLM.c	1454;"	d	file:
+NGHSIZE3	HLVLM.c	1455;"	d	file:
+NGLM_PROB_ADD	HLVLM.h	128;"	d
+NGLM_PROB_GREATER	HLVLM.h	127;"	d
+NGLM_PROB_GREATER	HLVLM.h	135;"	d
+NGLM_PROB_LZERO	HLVLM.h	125;"	d
+NGLM_PROB_LZERO	HLVLM.h	133;"	d
+NGLM_PROB_TO_FLOAT	HLVLM.h	123;"	d
+NGLM_PROB_TO_FLOAT	HLVLM.h	131;"	d
+NGLM_PROB_ZERO	HLVLM.h	126;"	d
+NGLM_PROB_ZERO	HLVLM.h	134;"	d
+NGLM_Prob	HLVLM.h	/^   typedef float NGLM_Prob;$/;"	t
+NGLM_Prob	HLVLM.h	/^   typedef unsigned short NGLM_Prob;$/;"	t
+NLAYERS	HLVNet.h	133;"	d
+NSIZE	HLVLM.h	96;"	d
+NewSTLLink	HLVNet.c	/^STLexLink *NewSTLLink (MemHeap *heap)$/;"	f
+NewSTLNode	HLVNet.c	/^STLexNode *NewSTLNode (MemHeap *heap)$/;"	f
+NewTLexNodeCon	HLVNet.c	/^TLexNode *NewTLexNodeCon (MemHeap *heap, TLexNet *net, int layerId, LabId lc, LabId rc)$/;"	f
+NewTLexNodeMod	HLVNet.c	/^TLexNode *NewTLexNodeMod (MemHeap *heap, TLexNet *net, int layerId, HLink hmm)$/;"	f
+NewTLexNodeWe	HLVNet.c	/^TLexNode *NewTLexNodeWe (MemHeap *heap, TLexNet *net, int layerId, Pron pron)$/;"	f
+NewTokSetArray	HLVRec.c	/^static TokenSet *NewTokSetArray(DecoderInst *dec, int N)$/;"	f	file:
+NewTokSetArrayVar	HLVRec.c	/^static TokenSet *NewTokSetArrayVar(DecoderInst *dec, int N, Boolean isSil)$/;"	f	file:
+Next	HDecode.cpp	/^bool Next(DecoderInst* dec) {$/;"	f
+OutPBlock	HLVModel.c	/^void OutPBlock (StateInfo_lv *si, Observation **obsBlock, $/;"	f
+OutPBlock_HMod	HLVRec-outP.c	/^void OutPBlock_HMod (StateInfo_lv *si, Observation **obsBlock, $/;"	f
+OutPCache	HLVRec.h	/^typedef struct _OutPCache OutPCache;$/;"	t	typeref:struct:_OutPCache
+OutP_lv	HLVModel.c	/^LogFloat OutP_lv (StateInfo_lv *si,  unsigned short s, float *x)$/;"	f
+PI_GEN	HLVRec-propagate.c	/^static int PI_GEN = 0;$/;"	v	file:
+PI_LR	HLVRec-propagate.c	/^static int PI_LR = 0;$/;"	v	file:
+POutP_HModel	HLVRec-outP.c	/^LogFloat POutP_HModel (HMMSet *hset,Observation *x, StateInfo *si, int id)$/;"	f
+PROGRESS	HLVLM.c	298;"	d	file:
+PRUNE	HLVRec.c	58;"	d	file:
+Paths2Lat	HLVRec-traceback.c	/^static void Paths2Lat (DecoderInst *dec, Lattice *lat, WordendHyp *path,$/;"	f	file:
+Prepare	HDecode.cpp	/^Prepare(DecoderInst* dec) {$/;"	f
+PrintAlignBestInfo	HDecode.cpp	/^void PrintAlignBestInfo (DecoderInst *dec, BestInfo *b)$/;"	f
+PrintAlignBestInfo	HDecode.mod.c	/^void PrintAlignBestInfo (DecoderInst *dec, BestInfo *b)$/;"	f
+PrintLMHashStats	HLVLM.c	/^void PrintLMHashStats(FSLM *lm)$/;"	f
+PrintModPath	HLVRec-traceback.c	/^void PrintModPath (DecoderInst *dec, ModendHyp *m)$/;"	f
+PrintPath	HLVRec-traceback.c	/^static void PrintPath (DecoderInst *dec, WordendHyp *we)$/;"	f	file:
+PrintRelTok	HLVRec-traceback.c	/^static void PrintRelTok(DecoderInst *dec, RelToken *tok)$/;"	f	file:
+PrintState_lv	HLVModel.c	/^void PrintState_lv (StateInfo_lv *si,  unsigned short s)$/;"	f
+PrintTok	HLVRec-traceback.c	/^static void PrintTok(DecoderInst *dec, Token *tok)$/;"	f	file:
+PrintTokSet	HLVRec-traceback.c	/^static void PrintTokSet (DecoderInst *dec, TokenSet *ts)$/;"	f	file:
+ProcessFrame	HLVRec-propagate.c	/^void ProcessFrame (DecoderInst *dec, Observation **obsBlock, int nObs, $/;"	f
+ProcessLabels	HLRescore.cpp	/^void ProcessLabels (char *labfn)$/;"	f
+ProcessLattice	HLRescore.cpp	/^void ProcessLattice (char *latfn)$/;"	f
+PronId	config.h	/^typedef unsigned int PronId;$/;"	t
+PropIntoNode	HLVRec-propagate.c	/^static void PropIntoNode (DecoderInst *dec, TokenSet *ts, LexNode *ln, Boolean updateLMLA)$/;"	f	file:
+PropagateExternal	HLVRec-propagate.c	/^static void PropagateExternal (DecoderInst *dec, LexNodeInst *inst, $/;"	f	file:
+PropagateInternal	HLVRec-propagate.c	/^static void PropagateInternal (DecoderInst *dec, LexNodeInst *inst)$/;"	f	file:
+PruneTokSet	HLVRec.c	/^static void PruneTokSet (DecoderInst *dec, TokenSet *ts)$/;"	f	file:
+ReFormatTranscription	HLVRec.c	/^void ReFormatTranscription(Transcription *trans,HTime frameDur,$/;"	f
+ReadARPALM	HLVLM.c	/^FSLM *ReadARPALM(MemHeap *heap, char *lmfn, Vocab *vocab)$/;"	f
+ReadARPAngram	HLVLM.c	/^static void ReadARPAngram (FSLM_ngram *nglm, Source *lmSrc, int n, int count, Boolean bin,$/;"	f	file:
+RelTokScore	config.h	/^typedef LogFloat RelTokScore;$/;"	t
+RelToken	HLVRec.h	/^typedef struct _RelToken RelToken;      \/* Info about partial hypothesis relative to main token *\/$/;"	t	typeref:struct:_RelToken
+ReportUsage	HDecode.mod.c	/^ReportUsage (void)$/;"	f
+ReportUsage	HLRescore.cpp	/^void ReportUsage(void)$/;"	f
+ResetFVTrans	HDecode.cpp	/^void ResetFVTrans (HMMSet *hset, BlockMatrix transMat)$/;"	f
+ResetFVTrans	HDecode.mod.c	/^void ResetFVTrans (HMMSet *hset, BlockMatrix transMat)$/;"	f
+ResetLMCache	HLVRec-LM.c	/^static void ResetLMCache (LMCache *cache)$/;"	f	file:
+ResetOutPCache	HLVRec-outP.c	/^static void ResetOutPCache (OutPCache *cache)$/;"	f	file:
+RoundAlign	HLVModel.c	/^size_t RoundAlign(size_t addr, size_t align)$/;"	f
+SEntry	HLVLM.h	/^} SEntry;$/;"	t	typeref:struct:sentry
+SHELL	Makefile	/^SHELL   = 	\/bin\/sh$/;"	m
+SOutP_HMod	HLVRec-outP.c	/^static LogFloat SOutP_HMod (HMMSet *hset, int s, Observation *x, StreamElem *se,$/;"	f	file:
+SOutP_ID_mix_Block	HLVRec-outP.c	/^LogFloat SOutP_ID_mix_Block(HMMSet *hset, int s, Observation *x, StreamElem *se)$/;"	f
+STATS_MAXT	HLVRec.h	231;"	d
+STLN_CON	HLVNet.c	/^  STLN_WORDEND, STLN_CON, STLN_MODEL$/;"	e	enum:_STLexNodeType	file:
+STLN_MODEL	HLVNet.c	/^  STLN_WORDEND, STLN_CON, STLN_MODEL$/;"	e	enum:_STLexNodeType	file:
+STLN_WORDEND	HLVNet.c	/^  STLN_WORDEND, STLN_CON, STLN_MODEL$/;"	e	enum:_STLexNodeType	file:
+STLexLink	HLVNet.c	/^typedef struct _STLexLink STLexLink;$/;"	t	typeref:struct:_STLexLink	file:
+STLexNode	HLVNet.c	/^typedef struct _STLexNode STLexNode;$/;"	t	typeref:struct:_STLexNode	file:
+STLexNodeType	HLVNet.c	/^} STLexNodeType;$/;"	t	typeref:enum:_STLexNodeType	file:
+SenoneScoreAmDiagGmm	HLVRec.h	/^    SenoneScoreAmDiagGmm(const kaldi::AmDiagGmm &am,$/;"	f	class:SenoneScoreAmDiagGmm
+SenoneScoreAmDiagGmm	HLVRec.h	/^class SenoneScoreAmDiagGmm : public kaldi::DecodableAmDiagGmm {$/;"	c
+SenoneScoreAmSgmm	HLVRec.h	/^    SenoneScoreAmSgmm(const kaldi::SgmmGselectConfig &opts,$/;"	f	class:SenoneScoreAmSgmm
+SenoneScoreAmSgmm	HLVRec.h	/^class SenoneScoreAmSgmm : public kaldi::DecodableAmSgmm {$/;"	c
+SenoneScoreAmSgmm2	HLVRec.h	/^    SenoneScoreAmSgmm2(const kaldi::AmSgmm2 &am,$/;"	f	class:SenoneScoreAmSgmm2
+SenoneScoreAmSgmm2	HLVRec.h	/^class SenoneScoreAmSgmm2 : public kaldi::DecodableAmSgmm2 {$/;"	c
+SetConfParms	HDecode.cpp	/^SetConfParms (void)$/;"	f
+SetConfParms	HDecode.mod.c	/^SetConfParms (void)$/;"	f
+SetConfParms	HLRescore.cpp	/^void SetConfParms(void)$/;"	f
+SetNEntryBO	HLVLM.c	/^void SetNEntryBO (FSLM *lm)$/;"	f
+SetStartEnd	HLVLM.c	/^void SetStartEnd (FSLM *lm, char *startWord, char *endWord, Vocab *vocab)$/;"	f
+SplitTriphone	HDecode.cpp	/^SplitTriphone(char* triphone, vector<string>& result) {$/;"	f
+StateInfo_lv	HLVModel.h	/^typedef struct _StateInfo_lv StateInfo_lv;$/;"	t	typeref:struct:_StateInfo_lv
+Stats	HLVRec.h	/^typedef struct _Stats Stats;    \/* statistics about pruning etc. *\/$/;"	t	typeref:struct:_Stats
+SweepAltPaths	HLVRec-GC.c	/^static void SweepAltPaths (MemHeap *heap)$/;"	f	file:
+SweepModPaths	HLVRec-GC.c	/^static void SweepModPaths (MemHeap *heap)$/;"	f	file:
+SweepPaths	HLVRec-GC.c	/^static void SweepPaths (MemHeap *heap)$/;"	f	file:
+TLexConNode	HLVNet.h	/^typedef struct _TLexNode TLexConNode;$/;"	t	typeref:struct:_TLexNode
+TLexLink	HLVNet.h	/^typedef struct _TLexLink TLexLink;$/;"	t	typeref:struct:_TLexLink
+TLexNet	HLVNet.h	/^} TLexNet;$/;"	t	typeref:struct:_TLexNet
+TLexNode	HLVNet.h	/^typedef struct _TLexNode TLexNode;$/;"	t	typeref:struct:_TLexNode
+TOK_LMSTATE_EQ	HLVRec.h	201;"	d
+TOK_LMSTATE_LT	HLVRec.h	198;"	d
+TSIDOPT	config.h	55;"	d
+TSIDOPT	config.h	58;"	d
+TSIDOPT	config.h	73;"	d
+T_ACCESS	HLVLM.c	54;"	d	file:
+T_ACTIV	HLVRec.c	67;"	d	file:
+T_ADP	HDecode.cpp	116;"	d	file:
+T_ADP	HDecode.mod.c	64;"	d	file:
+T_BEST	HLVRec.c	63;"	d	file:
+T_GC	HLVRec.c	70;"	d	file:
+T_LAT	HLRescore.cpp	58;"	d	file:
+T_LAT	HLVRec.c	69;"	d	file:
+T_MEM	HDecode.cpp	117;"	d	file:
+T_MEM	HDecode.mod.c	65;"	d	file:
+T_MEM	HLRescore.cpp	59;"	d	file:
+T_MEM	HLVRec.c	71;"	d	file:
+T_NET	HLVNet.c	60;"	d	file:
+T_NETCON	HLVNet.c	61;"	d	file:
+T_OBS	HDecode.cpp	115;"	d	file:
+T_OBS	HDecode.mod.c	63;"	d	file:
+T_PROP	HLVRec.c	68;"	d	file:
+T_PRUNE	HLVRec.c	66;"	d	file:
+T_TOKSTATS	HLVRec.c	65;"	d	file:
+T_TOP	HDecode.cpp	114;"	d	file:
+T_TOP	HDecode.mod.c	62;"	d	file:
+T_TOP	HLRescore.cpp	56;"	d	file:
+T_TOP	HLVLM.c	53;"	d	file:
+T_TOP	HLVModel.c	55;"	d	file:
+T_TOP	HLVNet.c	59;"	d	file:
+T_TOP	HLVRec.c	62;"	d	file:
+T_TRAN	HLRescore.cpp	57;"	d	file:
+T_WORD	HLVRec.c	64;"	d	file:
+TokScore	config.h	/^typedef LogFloat TokScore;$/;"	t
+Token	HLVRec.h	/^typedef struct _Token Token;            \/* Info about partial hypothesis *\/$/;"	t	typeref:struct:_Token
+TokenSet	HLVRec.h	/^typedef struct _TokenSet TokenSet;      \/* contains n tokens with different LM states *\/$/;"	t	typeref:struct:_TokenSet
+TraceBack	HLVRec-traceback.c	/^Transcription *TraceBack(MemHeap *heap, DecoderInst *dec)$/;"	f
+TraverseTree	HLVNet.c	/^int TraverseTree (TLexNode *ln, int start, int *lmlaCount)$/;"	f
+UNMARK_ALTPATH	HLVRec-GC.c	49;"	d	file:
+UNMARK_MODPATH	HLVRec-GC.c	57;"	d	file:
+UNMARK_PATH	HLVRec-GC.c	42;"	d	file:
+USE_INTEL_SSE	config.h	64;"	d
+UnMarkAllWords	HLVNet.c	/^void UnMarkAllWords (Vocab *voc)$/;"	f
+UnigramLMIdMapper	HLVLM.c	/^static LMId UnigramLMIdMapper(FSLM_ngram *nglm, char *w)$/;"	f	file:
+UpdateLMlookahead	HLVRec-LM.c	/^static void UpdateLMlookahead(DecoderInst *dec, LexNode *ln)$/;"	f	file:
+UpdateModPaths	HLVRec-propagate.c	/^void UpdateModPaths (DecoderInst *dec, TokenSet *ts, LexNode *ln)$/;"	f
+UpdateSpkrModels	HDecode.cpp	/^Boolean UpdateSpkrModels (char *fn)$/;"	f
+UpdateSpkrModels	HDecode.mod.c	/^Boolean UpdateSpkrModels (char *fn)$/;"	f
+UpdateWordEndHyp	HLVRec-propagate.c	/^static void UpdateWordEndHyp (DecoderInst *dec, LexNodeInst *inst)$/;"	f	file:
+UtteranceId	HDecode.cpp	/^string UtteranceId(DecoderInst* dec) {$/;"	f
+WordendHyp	HLVRec.h	/^typedef struct _WordendHyp WordendHyp;      \/* records word level tracback *\/$/;"	t	typeref:struct:_WordendHyp
+WriteTLex	HLVNet.c	/^void WriteTLex (TLexNet *net, char *fn)$/;"	f
+_AltWordendHyp	HLVRec.h	/^struct _AltWordendHyp {         \/* stores info about N-best word(end) for lattice traceback *\/$/;"	s
+_BestInfo	HDecode.cpp	/^struct _BestInfo {$/;"	s	file:
+_BestInfo	HDecode.mod.c	/^struct _BestInfo {$/;"	s	file:
+_CompLMlaNode	HLVNet.h	/^typedef struct _CompLMlaNode {$/;"	s
+_DecoderInst	HLVRec.h	/^struct _DecoderInst {$/;"	s
+_FSLM	HLVLM.h	/^struct _FSLM {$/;"	s
+_FSLM_LatArc	HLVLM.h	/^typedef struct _FSLM_LatArc {$/;"	s
+_FSLM_LatNode	HLVLM.h	/^struct _FSLM_LatNode {$/;"	s
+_FSLM_latlm	HLVLM.h	/^struct _FSLM_latlm {$/;"	s
+_FSLM_ngram	HLVLM.h	/^struct _FSLM_ngram {$/;"	s
+_HLVLM_H_	HLVLM.h	32;"	d
+_HLVMODEL_H_	HLVModel.h	31;"	d
+_HLVNET_H_	HLVNet.h	51;"	d
+_HLVREC_H_	HLVRec.h	38;"	d
+_LMCache	HLVRec.h	/^struct _LMCache {$/;"	s
+_LMCacheLA	HLVRec.h	/^struct _LMCacheLA {$/;"	s
+_LMLACacheEntry	HLVRec.h	/^struct _LMLACacheEntry {$/;"	s
+_LMNodeCache	HLVRec.h	/^struct _LMNodeCache {$/;"	s
+_LMlaNode	HLVNet.h	/^typedef struct _LMlaNode {$/;"	s
+_LMlaTree	HLVNet.h	/^struct _LMlaTree {$/;"	s
+_LayerId	HLVNet.h	/^typedef enum _LayerId {$/;"	g
+_LayerStats	HLVRec-misc.c	/^struct _LayerStats {$/;"	s	file:
+_LexLink	HLVNet.h	/^struct _LexLink {$/;"	s
+_LexNet	HLVNet.h	/^typedef struct _LexNet {$/;"	s
+_LexNode	HLVNet.h	/^struct _LexNode {$/;"	s
+_LexNodeInst	HLVRec.h	/^struct _LexNodeInst {           \/* attached to active LexNode's, contains info about tokens *\/$/;"	s
+_LexNodeType	HLVNet.h	/^typedef enum _LexNodeType {$/;"	g
+_ModendHyp	HLVRec.h	/^struct _ModendHyp {             \/* stores info about one model(end) *\/$/;"	s
+_OutPCache	HLVRec.h	/^struct _OutPCache {$/;"	s
+_RelToken	HLVRec.h	/^struct _RelToken {$/;"	s
+_STLexLink	HLVNet.c	/^struct _STLexLink {$/;"	s	file:
+_STLexNode	HLVNet.c	/^struct _STLexNode {$/;"	s	file:
+_STLexNodeType	HLVNet.c	/^typedef enum _STLexNodeType {$/;"	g	file:
+_StateInfo_lv	HLVModel.h	/^struct _StateInfo_lv {$/;"	s
+_Stats	HLVRec.h	/^struct _Stats {$/;"	s
+_TLexLink	HLVNet.h	/^struct _TLexLink {$/;"	s
+_TLexNet	HLVNet.h	/^typedef struct _TLexNet {$/;"	s
+_TLexNode	HLVNet.h	/^struct _TLexNode {$/;"	s
+_Token	HLVRec.h	/^struct _Token {$/;"	s
+_TokenSet	HLVRec.h	/^struct _TokenSet {$/;"	s
+_WordendHyp	HLVRec.h	/^struct _WordendHyp {            \/* stores info about one word(end) *\/$/;"	s
+_senone_index_map	HLVRec.h	/^    const std::vector<kaldi::int32>& _senone_index_map;$/;"	m	class:SenoneScoreAmDiagGmm
+_senone_index_map	HLVRec.h	/^    const std::vector<kaldi::int32>& _senone_index_map;$/;"	m	class:SenoneScoreAmSgmm
+_senone_index_map	HLVRec.h	/^    const std::vector<kaldi::int32>& _senone_index_map;$/;"	m	class:SenoneScoreAmSgmm2
+acScale	HDecode.cpp	/^static float acScale = 1.0;     \/* acoustic scaling factor *\/$/;"	v	file:
+acScale	HDecode.mod.c	/^static float acScale = 1.0;     \/* acoustic scaling factor *\/$/;"	v	file:
+acScale	HLRescore.cpp	/^static double acScale = 1.0;    \/* acoustic scale factor *\/$/;"	v	file:
+acScale	HLVRec.h	/^   float acScale;               \/* acoustic scaling factor *\/$/;"	m	struct:_DecoderInst
+acoustic_feature	HLVRec.h	/^   kaldi::SequentialBaseFloatMatrixReader* acoustic_feature;$/;"	m	struct:_DecoderInst
+alt	HLVRec.h	/^   AltWordendHyp *alt;          \/* alternative paths for lattice traceback *\/$/;"	m	struct:_WordendHyp
+altweHypHeap	HLVRec.h	/^   MemHeap altweHypHeap;        \/* MHEAP for alt word end hyps (for latgen) *\/$/;"	m	struct:_DecoderInst
+am_gmm_ptr	HLVRec.h	/^   kaldi::AmDiagGmm* am_gmm_ptr;$/;"	m	struct:_DecoderInst
+am_sgmm2_ptr	HLVRec.h	/^   kaldi::AmSgmm2* am_sgmm2_ptr;$/;"	m	struct:_DecoderInst
+am_sgmm_ptr	HLVRec.h	/^   kaldi::AmSgmm* am_sgmm_ptr;$/;"	m	struct:_DecoderInst
+base	HLVModel.h	/^   float *base;$/;"	m	struct:_StateInfo_lv
+beamLimit	HLVRec.h	/^   TokScore beamLimit;          \/* threshold of the main beam (bestScore - beamWidth) *\/$/;"	m	struct:_DecoderInst
+beamWidth	HDecode.cpp	/^static LogFloat beamWidth = - LZERO;     \/* pruning global beam width *\/$/;"	v	file:
+beamWidth	HDecode.mod.c	/^static LogFloat beamWidth = - LZERO;     \/* pruning global beam width *\/$/;"	v	file:
+beamWidth	HLVRec.h	/^   TokScore beamWidth;          \/* max beamWidth main beam (set by -t cmd line option) *\/$/;"	m	struct:_DecoderInst
+best	HLVRec.h	/^   TokScore best;               \/* score of best token in any HMM state and LM state,$/;"	m	struct:_LexNodeInst
+bestAlignMLF	HDecode.cpp	/^static char *bestAlignMLF;      \/* MLF with 1-best alignment *\/$/;"	v	file:
+bestAlignMLF	HDecode.mod.c	/^static char *bestAlignMLF;      \/* MLF with 1-best alignment *\/$/;"	v	file:
+bestInst	HLVRec.h	/^   LexNodeInst *bestInst;       \/* instance containing best token *\/$/;"	m	struct:_DecoderInst
+bestScore	HLVRec-misc.c	/^   TokScore bestScore;$/;"	m	struct:_LayerStats	file:
+bestScore	HLVRec.h	/^   LogFloat bestScore;          \/* score of best token *\/$/;"	m	struct:_DecoderInst
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+block	HLVRec.h	/^   int block;$/;"	m	struct:_OutPCache
+bowt	HLVLM.h	/^   NGLM_Prob bowt;              \/* Back-off weight *\/$/;"	m	struct:nentry
+buildLatSE	HLVRec.c	/^static Boolean buildLatSE = FALSE;\/* build lat from single tok in SENTEND node *\/$/;"	v	file:
+cOutP	HLVRec-outP.c	/^static LogFloat cOutP (DecoderInst *dec, Observation *x, HLink hmm, int state)$/;"	f	file:
+cParm	HDecode.cpp	/^static ConfParam *cParm[MAXGLOBS];$/;"	v	file:
+cParm	HDecode.mod.c	/^static ConfParam *cParm[MAXGLOBS];$/;"	v	file:
+cParm	HLRescore.cpp	/^static ConfParam *cParm[MAXGLOBS];$/;"	v	file:
+cParm	HLVLM.c	/^static ConfParam *cParm[MAXGLOBS];      \/* config parameters *\/$/;"	v	file:
+cParm	HLVModel.c	/^static ConfParam *cParm[MAXGLOBS];      \/* config parameters *\/$/;"	v	file:
+cParm	HLVNet.c	/^static ConfParam *cParm[MAXGLOBS];      \/* config parameters *\/$/;"	v	file:
+cParm	HLVRec.c	/^static ConfParam *cParm[MAXGLOBS];      \/* config parameters *\/$/;"	v	file:
+cacheHit	HLVRec.h	/^   int cacheHit;$/;"	m	struct:_OutPCache
+cacheMiss	HLVRec.h	/^   int cacheMiss;$/;"	m	struct:_OutPCache
+calcStats	HLRescore.cpp	/^static Boolean calcStats = FALSE;   \/* -c *\/$/;"	v	file:
+chain	HLVNet.h	/^   TLexNode *chain;              \/* global chain of all TLexNodes *\/$/;"	m	struct:_TLexNode
+compNode	HLVNet.h	/^   CompLMlaNode *compNode;      \/* [0..nCompNodes-1] arry of entries *\/$/;"	m	struct:_LMlaTree
+comp_stll	HLVNet.c	/^int comp_stll (const void *v1, const void *v2) {$/;"	f
+counts	HLVLM.h	/^   int counts[NSIZE+1];         \/* Number of [n]grams *\/$/;"	m	struct:_FSLM_ngram
+cpuAll	HLVRec.h	/^   float cpuAll;$/;"	m	struct:_DecoderInst
+cpuSec	HLVRec.h	/^   float cpuSec;$/;"	m	struct:_DecoderInst
+curBeamWidth	HLVRec.h	/^   TokScore curBeamWidth;       \/* current dynamic beamWidth (due to max model pruning) *\/$/;"	m	struct:_DecoderInst
+data	HLVLM.h	/^   } data;$/;"	m	struct:_FSLM	typeref:union:_FSLM::__anon2
+data	HLVNet.c	/^   } data;$/;"	m	struct:_STLexNode	typeref:union:_STLexNode::__anon3	file:
+data	HLVNet.h	/^   } data;$/;"	m	struct:_LexNode	typeref:union:_LexNode::__anon4
+dataForm	HDecode.cpp	/^static FileFormat dataForm = UNDEFF; \/* data input file format *\/$/;"	v	file:
+dataForm	HDecode.mod.c	/^static FileFormat dataForm = UNDEFF; \/* data input file format *\/$/;"	v	file:
+datadir	Makefile	/^datadir = ${prefix}\/share$/;"	m
+delta	HLVRec.h	/^   RelTokScore  delta;          \/* delta score relative to main token, $/;"	m	struct:_RelToken
+dest	HLVLM.h	/^   FSLM_LatNode *dest;$/;"	m	struct:_FSLM_LatArc
+dictfn	HDecode.cpp	/^static char *dictfn;		\/* dict filename from commandline *\/$/;"	v	file:
+dictfn	HDecode.mod.c	/^static char *dictfn;		\/* dict filename from commandline *\/$/;"	v	file:
+dictfn	HLRescore.cpp	/^static char *dictfn;		\/* dict filename from commandline *\/$/;"	v	file:
+dynBeamInc	HLVRec.c	/^static float dynBeamInc = 1.3;          \/* dynamic beam increment for max model pruning *\/$/;"	v	file:
+end	HDecode.cpp	/^   int end;$/;"	m	struct:_BestInfo	file:
+end	HDecode.mod.c	/^   int end;$/;"	m	struct:_BestInfo	file:
+end	HLVNet.h	/^   LexNode *end;                \/* single end node *\/$/;"	m	struct:_LexNet
+end	HLVNet.h	/^   LexNode *end;$/;"	m	struct:_LexLink
+end	HLVNet.h	/^   TLexNode *end;       \/* end node of network *\/$/;"	m	struct:_TLexNet
+end	HLVNet.h	/^   TLexNode *end;$/;"	m	struct:_TLexLink
+endId	HLVNet.h	/^   LabId endId;         \/* id of ENDWORD (from config) *\/$/;"	m	struct:_TLexNet
+endLMWord	HLRescore.cpp	/^static char *endLMWord;         \/* word at end in LM (<\/s>) *\/$/;"	v	file:
+endLab	HDecode.cpp	/^static LabId endLab;            \/*   corresponding LabId *\/$/;"	v	file:
+endLab	HDecode.mod.c	/^static LabId endLab;            \/*   corresponding LabId *\/$/;"	v	file:
+endLab	HLRescore.cpp	/^static LabId endLab;            \/* corresponding LabId *\/$/;"	v	file:
+endPron	HLVNet.h	/^   PronId endPron;              \/* pron of <\/s> *\/$/;"	m	struct:_LexNet
+endPronId	HLVLM.h	/^   PronId endPronId;$/;"	m	struct:_FSLM
+endWord	HDecode.cpp	/^static char *endWord = "<\/s>";  \/* word used at end of network *\/$/;"	v	file:
+endWord	HDecode.mod.c	/^static char *endWord = "<\/s>";  \/* word used at end of network *\/$/;"	v	file:
+endWord	HLRescore.cpp	/^static char *endWord;           \/* word at end of Lattice (!SENT_END) *\/$/;"	v	file:
+eventT	HLVNet.h	/^   int eventT;          \/* frame # of last (de)activation *\/$/;"	m	struct:_LexNode
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+expandLat	HLRescore.cpp	/^static Boolean expandLat = FALSE;   \/* -n *\/$/;"	v	file:
+fastlmla	HLVRec.h	/^   Boolean fastlmla;            \/* use fast LM lookahead, i.e. back-off to bigram states *\/$/;"	m	struct:_DecoderInst
+fastlmlaBeam	HDecode.cpp	/^static LogFloat fastlmlaBeam = - LZERO;  \/* do fast LM la outside this beam *\/$/;"	v	file:
+fastlmlaBeam	HDecode.mod.c	/^static LogFloat fastlmlaBeam = - LZERO;  \/* do fast LM la outside this beam *\/$/;"	v	file:
+fastlmlaBeam	HLVRec.h	/^   LogFloat fastlmlaBeam;       \/* beam in which to use full lmla *\/$/;"	m	struct:_DecoderInst
+findBest	HLRescore.cpp	/^static Boolean findBest = FALSE;    \/* -f *\/$/;"	v	file:
+fixBadLats	HLRescore.cpp	/^static Boolean fixBadLats = FALSE;         \/* fix final word in lattices *\/$/;"	v	file:
+fixPronprobs	HLRescore.cpp	/^static Boolean fixPronprobs = FALSE; \/* get pron probs from dict *\/$/;"	v	file:
+flags	HLVNet.h	/^   unsigned char flags;         \/* flags like LEFT_RIGHT *\/$/;"	m	struct:_LexNode
+floatsPerBlock	HLVModel.h	/^   size_t floatsPerBlock;        \/* mixPerBlock * floatsPerMix *\/$/;"	m	struct:_StateInfo_lv
+floatsPerMix	HLVModel.h	/^   size_t floatsPerMix;$/;"	m	struct:_StateInfo_lv
+foll	HLVLM.h	/^   FSLM_LatArc *foll;$/;"	m	struct:_FSLM_LatNode
+foll	HLVNet.h	/^   LexNode **foll;		\/* array of following nodes *\/$/;"	m	struct:_LexNode
+forceLatOut	HLVRec.c	/^static Boolean forceLatOut = TRUE;\/* always output lattice, even when no token survived *\/$/;"	v	file:
+frame	HLVRec.h	/^   int frame;                   \/* current frame number *\/$/;"	m	struct:_DecoderInst
+frame	HLVRec.h	/^   short frame;                 \/* end frame number of this model *\/$/;"	m	struct:_ModendHyp
+frame	HLVRec.h	/^   short frame;                 \/* end frame number of this word *\/$/;"	m	struct:_WordendHyp
+frameDur	HLVRec.h	/^   HTime frameDur;              \/* Duration of one frame in seconds *\/$/;"	m	struct:_DecoderInst
+fslm_latlm	HLVLM.h	/^typedef enum {fslm_ngram, fslm_latlm} FSLMType;$/;"	e	enum:__anon1
+fslm_ngram	HLVLM.h	/^typedef enum {fslm_ngram, fslm_latlm} FSLMType;$/;"	e	enum:__anon1
+fslmln	HLVLM.h	/^   FSLM_LatNode *fslmln;$/;"	m	struct:_FSLM_latlm
+gcFreq	HLVRec.c	/^static int gcFreq = 100;          \/* run Garbage Collection every gcFreq frames *\/$/;"	v	file:
+gmm_weight	HLVRec.h	/^   float gmm_weight;$/;"	m	struct:_DecoderInst
+gselect_reader_sgmm2_ptr	HLVRec.h	/^   kaldi::RandomAccessInt32VectorVectorReader* gselect_reader_sgmm2_ptr;$/;"	m	struct:_DecoderInst
+gselect_reader_sgmm_ptr	HLVRec.h	/^   kaldi::RandomAccessInt32VectorVectorReader* gselect_reader_sgmm_ptr;$/;"	m	struct:_DecoderInst
+hashsize	HLVLM.h	/^   unsigned int hashsize;       \/* Size of hashtab (adjusted by lm counts) *\/$/;"	m	struct:_FSLM_ngram
+hashtab	HLVLM.h	/^   NEntry **hashtab;            \/* Hash table for finding NEntries *\/$/;"	m	struct:_FSLM_ngram
+hdecode_sccs_id	HDecode.cpp	/^char *hdecode_sccs_id = "$Id: HDecode.c,v 1.1.1.1 2006\/10\/11 09:54:55 jal58 Exp $";$/;"	v
+hdecode_sccs_id	HDecode.mod.c	/^char *hdecode_sccs_id = "$Id: HDecode.mod.c,v 1.1.1.1 2006\/10\/11 09:54:55 jal58 Exp $";$/;"	v
+hdecode_version	HDecode.cpp	/^char *hdecode_version = "!HVER!HDecode:   3.4.1 [GE 12\/03\/09]";$/;"	v
+hdecode_version	HDecode.mod.c	/^char *hdecode_version = "!HVER!HDecode:   3.4.1 [GE 12\/03\/09]";$/;"	v
+heap	HLVLM.h	/^   MemHeap *heap;$/;"	m	struct:_FSLM
+heap	HLVLM.h	/^   MemHeap *heap;$/;"	m	struct:_FSLM_ngram
+heap	HLVNet.h	/^   MemHeap *heap;$/;"	m	struct:_LexNet
+heap	HLVNet.h	/^   MemHeap *heap;$/;"	m	struct:_TLexNet
+heap	HLVRec.h	/^   MemHeap heap;                \/* MSTACK for general allocation *\/$/;"	m	struct:_DecoderInst
+hiWE	HLVNet.h	/^   LMId hiWE;$/;"	m	struct:_LMlaNode
+hiWE	HLVNet.h	/^   int hiWE;            \/* highest WE LMId reachable from here *\/$/;"	m	struct:_TLexNode
+hlrescore_vc_id	HLRescore.cpp	/^char *hlrescore_vc_id = "$Id: HLRescore.c,v 1.1.1.1 2006\/10\/11 09:55:01 jal58 Exp $";$/;"	v
+hlrescore_version	HLRescore.cpp	/^char *hlrescore_version = "!HVER!HLRescore:   3.4.1 [CUED 12\/03\/09]";$/;"	v
+hlvlm_vc_id	HLVLM.c	/^char *hlvlm_vc_id = "$Id: HLVLM.c,v 1.1.1.1 2006\/10\/11 09:54:55 jal58 Exp $";$/;"	v
+hlvlm_version	HLVLM.c	/^char *hlvlm_version = "!HVER!HLVLM:   3.4.1 [GE 12\/03\/09]";$/;"	v
+hlvmodel_vc_id	HLVModel.c	/^char *hlvmodel_vc_id = "$Id: HLVModel.c,v 1.1.1.1 2006\/10\/11 09:54:55 jal58 Exp $";$/;"	v
+hlvmodel_version	HLVModel.c	/^char *hlvmodel_version = "!HVER!HLVmodel:   3.4.1 [GE 12\/03\/09]";$/;"	v
+hlvnet_vc_id	HLVNet.c	/^char *hlvnet_vc_id = "$Id: HLVNet.c,v 1.1.1.1 2006\/10\/11 09:54:55 jal58 Exp $";$/;"	v
+hlvnet_version	HLVNet.c	/^char *hlvnet_version = "!HVER!HLVNet:   3.4.1 [GE 12\/03\/09]";$/;"	v
+hlvrec_prop_vc_id	HLVRec-propagate.c	/^char *hlvrec_prop_vc_id = "$Id: HLVRec-propagate.c,v 1.1.1.1 2006\/10\/11 09:54:56 jal58 Exp $";$/;"	v
+hlvrec_vc_id	HLVRec.c	/^char *hlvrec_vc_id = "$Id: HLVRec.c,v 1.1.1.1 2006\/10\/11 09:54:56 jal58 Exp $";$/;"	v
+hlvrec_version	HLVRec.c	/^char *hlvrec_version = "!HVER!HLVRec:   3.4.1 [GE 12\/03\/09]";$/;"	v
+hmm	HLVNet.h	/^      HLink hmm;                \/* #### switch to HMM Ids (2 byte ints) *\/$/;"	m	union:_LexNode::__anon4
+hmm	HLVNet.h	/^   HLink hmm;$/;"	m	struct:_TLexNode
+hmmDir	HDecode.cpp	/^static char *hmmDir = NULL;     \/* directory to look for HMM def files *\/$/;"	v	file:
+hmmDir	HDecode.mod.c	/^static char *hmmDir = NULL;     \/* directory to look for HMM def files *\/$/;"	v	file:
+hmmExt	HDecode.cpp	/^static char *hmmExt = NULL;     \/* HMM def file extension *\/$/;"	v	file:
+hmmExt	HDecode.mod.c	/^static char *hmmExt = NULL;     \/* HMM def file extension *\/$/;"	v	file:
+hmmListfn	HDecode.cpp	/^static char *hmmListfn;		\/* model list filename from commandline *\/$/;"	v	file:
+hmmListfn	HDecode.mod.c	/^static char *hmmListfn;		\/* model list filename from commandline *\/$/;"	v	file:
+hmmSP	HLVNet.h	/^   HLink hmmSP;                 \/* pointer to "sp" hmm for spSkipLayer handling *\/$/;"	m	struct:_LexNet
+hset	HDecode.cpp	/^static HMMSet hset;		\/* HMM set *\/$/;"	v	file:
+hset	HDecode.mod.c	/^static HMMSet hset;		\/* HMM set *\/$/;"	v	file:
+hset	HLVModel.h	/^   HMMSet *hset;$/;"	m	struct:_StateInfo_lv
+hset	HLVNet.h	/^   HMMSet *hset;$/;"	m	struct:_LexNet
+hset	HLVNet.h	/^   HMMSet *hset;$/;"	m	struct:_TLexNet
+hset	HLVRec.h	/^   HMMSet *hset;$/;"	m	struct:_DecoderInst
+hvs	HLVLM.c	/^static int hvs[]= { 165902236, 220889002, 32510287, 117809592,$/;"	v	file:
+id	HLVRec.h	/^   unsigned int id;             \/*####  should be only 2byte short! *\/$/;"	m	struct:_TokenSet
+idx	HLVRec.h	/^   int idx;$/;"	m	struct:_LMNodeCache
+idx	HLVRec.h	/^   unsigned int idx;$/;"	m	struct:_LMLACacheEntry
+ifmt	HLRescore.cpp	/^static FileFormat ifmt=UNDEFF;  \/* Label input file format *\/$/;"	v	file:
+inXForm	HLVRec.c	/^static AdaptXForm *inXForm;$/;"	v	file:
+inc	Makefile	/^inc     = 	..\/HTKLib++$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${prefix}\/share\/info$/;"	m
+initial	HLVLM.h	/^   LMState initial;$/;"	m	struct:_FSLM
+inputBufHeap	HDecode.cpp	/^static MemHeap inputBufHeap;$/;"	v	file:
+inputBufHeap	HDecode.mod.c	/^static MemHeap inputBufHeap;$/;"	v	file:
+insPen	HDecode.cpp	/^static LogFloat insPen = 0.0;   \/* word insertion penalty *\/$/;"	v	file:
+insPen	HDecode.mod.c	/^static LogFloat insPen = 0.0;   \/* word insertion penalty *\/$/;"	v	file:
+insPen	HLVRec.h	/^   LogFloat insPen;             \/* word insertion penalty *\/$/;"	m	struct:_DecoderInst
+inst	HLVNet.h	/^   LexNodeInst *inst;		\/* model instance or NULL if inactive *\/$/;"	m	struct:_LexNode
+instsLayer	HLVRec.h	/^   LexNodeInst **instsLayer;    \/* array of pointers to the linked list of $/;"	m	struct:_DecoderInst
+invVarOffset	HLVModel.h	/^   size_t invVarOffset;         \/* 4 + nDim * floatsPerMix*\/$/;"	m	struct:_StateInfo_lv
+la	HLVRec.h	/^   LMCacheLA la[LMCACHE_NLA];$/;"	m	struct:_LMNodeCache
+laHit	HLVRec.h	/^   int laHit;$/;"	m	struct:_LMCache
+laMiss	HLVRec.h	/^   int laMiss;$/;"	m	struct:_LMCache
+laTree	HLVNet.h	/^   LMlaTree *laTree;            \/* look ahead tree *\/$/;"	m	struct:_LexNet
+la_cmp	HLVLM.c	/^static int la_cmp(const void *v1,const void *v2)$/;"	f	file:
+lab2Lat	HLRescore.cpp	/^static Boolean lab2Lat = FALSE;     \/* -I *\/$/;"	v	file:
+labDir	HDecode.cpp	/^static char *labDir = NULL;	\/* output label file directory *\/$/;"	v	file:
+labDir	HDecode.mod.c	/^static char *labDir = NULL;	\/* output label file directory *\/$/;"	v	file:
+labExt	HDecode.cpp	/^static char *labExt = "rec";	\/* output label file extension *\/$/;"	v	file:
+labExt	HDecode.mod.c	/^static char *labExt = "rec";	\/* output label file extension *\/$/;"	v	file:
+labForm	HDecode.cpp	/^static char *labForm = NULL;	\/* output label format *\/$/;"	v	file:
+labForm	HDecode.mod.c	/^static char *labForm = NULL;	\/* output label format *\/$/;"	v	file:
+labHeap	HLRescore.cpp	/^static MemHeap labHeap;$/;"	v	file:
+labInDir	HLRescore.cpp	/^static char *labInDir = NULL;   \/* Label input dir, set by -L  *\/$/;"	v	file:
+labInExt	HLRescore.cpp	/^static char *labInExt = "lab";  \/* Label Extension, set by -X *\/$/;"	v	file:
+labOutDir	HLRescore.cpp	/^static char *labOutDir = NULL;  \/* output label file directory *\/$/;"	v	file:
+labOutExt	HLRescore.cpp	/^static char *labOutExt = "rec"; \/* output label file extension *\/$/;"	v	file:
+labOutForm	HLRescore.cpp	/^static char *labOutForm = NULL; \/* output label format *\/$/;"	v	file:
+lablist	HLVLM.h	/^   LabId *lablist;              \/* Lookup table for LabIds from LMId *\/ $/;"	m	struct:_FSLM_ngram
+langfn	HDecode.cpp	/^static char *langfn;		\/* LM filename from commandline *\/$/;"	v	file:
+langfn	HDecode.mod.c	/^static char *langfn;		\/* LM filename from commandline *\/$/;"	v	file:
+latAll	HLVRec.h	/^   float latAll;$/;"	m	struct:_DecoderInst
+latFileMask	HDecode.cpp	/^static char *latFileMask = NULL; \/* mask for reading lattice *\/$/;"	v	file:
+latGen	HDecode.cpp	/^static Boolean latGen = FALSE;  \/* output lattice? *\/$/;"	v	file:
+latGen	HDecode.mod.c	/^static Boolean latGen = FALSE;  \/* output lattice? *\/$/;"	v	file:
+latHeap	HLRescore.cpp	/^static MemHeap latHeap;$/;"	v	file:
+latInDir	HDecode.cpp	/^static char *latInDir = NULL;   \/* lattice input directory *\/$/;"	v	file:
+latInDir	HDecode.mod.c	/^static char *latInDir = NULL;   \/* lattice input directory *\/$/;"	v	file:
+latInDir	HLRescore.cpp	/^static char *latInDir = NULL;   \/* Lattice input dir, set by -L  *\/$/;"	v	file:
+latInExt	HDecode.cpp	/^static char *latInExt = "lat";  \/* latttice input extension *\/$/;"	v	file:
+latInExt	HDecode.mod.c	/^static char *latInExt = "lat";  \/* latttice input extension *\/$/;"	v	file:
+latInExt	HLRescore.cpp	/^static char *latInExt = "lat";  \/* Lattice Extension, set by -X *\/$/;"	v	file:
+latOutDir	HDecode.cpp	/^static char *latOutDir = NULL;  \/* lattice output directory *\/$/;"	v	file:
+latOutDir	HDecode.mod.c	/^static char *latOutDir = NULL;  \/* lattice output directory *\/$/;"	v	file:
+latOutExt	HDecode.cpp	/^static char *latOutExt = "lat"; \/* latttice output extension *\/$/;"	v	file:
+latOutExt	HDecode.mod.c	/^static char *latOutExt = "lat"; \/* latttice output extension *\/$/;"	v	file:
+latOutForm	HDecode.cpp	/^static char *latOutForm = NULL;  \/* lattice output format *\/$/;"	v	file:
+latOutForm	HDecode.mod.c	/^static char *latOutForm = NULL;  \/* lattice output format *\/$/;"	v	file:
+latOutForm	HLRescore.cpp	/^static char *latOutForm = NULL; \/* output lattice format *\/$/;"	v	file:
+latPruneAPS	HDecode.cpp	/^static LogFloat latPruneAPS = 0;;        \/* lattice pruning arcs per sec limit *\/$/;"	v	file:
+latPruneAPS	HDecode.mod.c	/^static LogFloat latPruneAPS = 0;;        \/* lattice pruning arcs per sec limit *\/$/;"	v	file:
+latPruneBeam	HDecode.cpp	/^static LogFloat latPruneBeam = - LZERO;  \/* lattice pruning beam width *\/$/;"	v	file:
+latPruneBeam	HDecode.mod.c	/^static LogFloat latPruneBeam = - LZERO;  \/* lattice pruning beam width *\/$/;"	v	file:
+latRescore	HDecode.cpp	/^static Boolean latRescore = FALSE; \/* read lattice for each utterance and rescore? *\/$/;"	v	file:
+latRescore	HDecode.mod.c	/^static Boolean latRescore = FALSE; \/* read lattice for each utterance and rescore? *\/$/;"	v	file:
+latSec	HLVRec.h	/^   float latSec;$/;"	m	struct:_DecoderInst
+latgen	HLVRec.h	/^   Boolean latgen;              \/* generate lattices or just 1-bet? *\/$/;"	m	struct:_DecoderInst
+latlm	HLVLM.h	/^      FSLM_latlm *latlm;$/;"	m	union:_FSLM::__anon2
+layerId	HLVNet.h	/^   int layerId;$/;"	m	struct:_TLexNode
+layerStart	HLVNet.h	/^   LexNode **layerStart;        \/* array of pointers to the first node in each layer *\/$/;"	m	struct:_LexNet
+lc	HLVNet.h	/^   LabId lc;            \/* left context phone *\/$/;"	m	struct:_TLexNode
+lexA	HLVNet.h	/^   LabId *lexA;$/;"	m	struct:_TLexNet
+lexABhash	HLVNet.h	/^   TLexNode *lexABhash[LEX_CON_HASH_SIZE];$/;"	m	struct:_TLexNet
+lexP	HLVNet.h	/^   LabId *lexP;$/;"	m	struct:_TLexNet
+lexSAhash	HLVNet.h	/^   TLexNode *lexSAhash[LEX_CON_HASH_SIZE];$/;"	m	struct:_TLexNet
+lexYZhash	HLVNet.h	/^   TLexNode *lexYZhash[LEX_CON_HASH_SIZE];$/;"	m	struct:_TLexNet
+lexZ	HLVNet.h	/^   LabId *lexZ;$/;"	m	struct:_TLexNet
+lexZShash	HLVNet.h	/^   TLexNode *lexZShash[LEX_CON_HASH_SIZE];$/;"	m	struct:_TLexNet
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+link	HLVLM.h	/^   struct nentry *link;         \/* Next entry in hash table *\/$/;"	m	struct:nentry	typeref:struct:nentry::nentry
+link	HLVNet.c	/^   STLexLink *link[2];$/;"	m	struct:_STLexNode	file:
+link	HLVNet.h	/^   TLexLink *link;		\/* linked list of  TLexLinks to successor nodes *\/$/;"	m	struct:_TLexNode
+ll	HDecode.cpp	/^   LLink ll;           \/* get rid of this? currently start\/end are redundant *\/$/;"	m	struct:_BestInfo	file:
+ll	HDecode.mod.c	/^   LLink ll;           \/* get rid of this? currently start\/end are redundant *\/$/;"	m	struct:_BestInfo	file:
+lm	HDecode.cpp	/^static FSLM *lm;                \/* language model *\/$/;"	v	file:
+lm	HDecode.mod.c	/^static FSLM *lm;                \/* language model *\/$/;"	v	file:
+lm	HLRescore.cpp	/^static LModel *lm;              \/* LM for expandin lattices *\/$/;"	v	file:
+lm	HLVRec.h	/^   FSLM *lm;$/;"	m	struct:_DecoderInst
+lm	HLVRec.h	/^   LMTokScore lm;               \/* LM likelihood of this word given history *\/$/;"	m	struct:_AltWordendHyp
+lm	HLVRec.h	/^   LMTokScore lm;               \/* LM likelihood of this word given history *\/$/;"	m	struct:_WordendHyp
+lmCache	HLVRec.h	/^   LMCache *lmCache;$/;"	m	struct:_DecoderInst
+lmFile	HLRescore.cpp	/^static char *lmFile = NULL;     \/* LM filename *\/$/;"	v	file:
+lmHeap	HDecode.cpp	/^static MemHeap lmHeap;$/;"	v	file:
+lmHeap	HDecode.mod.c	/^static MemHeap lmHeap;$/;"	v	file:
+lmHeap	HLRescore.cpp	/^static MemHeap lmHeap;$/;"	v	file:
+lmScale	HDecode.cpp	/^static float lmScale = 1.0;     \/* LM scaling factor *\/$/;"	v	file:
+lmScale	HDecode.mod.c	/^static float lmScale = 1.0;     \/* LM scaling factor *\/$/;"	v	file:
+lmScale	HLRescore.cpp	/^static double lmScale = 1.0;    \/* LM scale factor *\/$/;"	v	file:
+lmScale	HLVRec.h	/^   float lmScale;               \/* LM scaling factor *\/$/;"	m	struct:_DecoderInst
+lmState	HLVRec.h	/^   LMState lmState;$/;"	m	struct:_RelToken
+lmState	HLVRec.h	/^   LMState lmState;$/;"	m	struct:_Token
+lmlaCount	HLVNet.h	/^   int lmlaCount;       \/* number of unique look ahead intervals *\/$/;"	m	struct:_TLexNet
+lmlaIdx	HLVNet.h	/^   int *lmlaIdx;$/;"	m	struct:_CompLMlaNode
+lmlaIdx	HLVNet.h	/^   int lmlaIdx;         \/* index of node in (compressed) LMlaTree *\/$/;"	m	struct:_TLexNode
+lmlaIdx	HLVNet.h	/^   unsigned int lmlaIdx;        \/* Idx of corresponding node in compressed LM $/;"	m	struct:_LexNode
+lmscore	HLVRec.h	/^   LMTokScore lmscore;          \/* LM lookahead score for current word *\/$/;"	m	struct:_RelToken
+lmscore	HLVRec.h	/^   LMTokScore lmscore;          \/* LM lookahead score for current word *\/$/;"	m	struct:_Token
+ln	HDecode.cpp	/^   LexNode *ln;$/;"	m	struct:_BestInfo	file:
+ln	HDecode.mod.c	/^   LexNode *ln;$/;"	m	struct:_BestInfo	file:
+ln	HLVNet.h	/^   LexNode *ln;        \/* the actual Lexicon Node *\/$/;"	m	struct:_TLexNode
+ln	HLVRec.h	/^   LexNode *ln;                 \/* lexnode that finished *\/$/;"	m	struct:_ModendHyp
+lnDeadT	HLVRec.h	/^   unsigned long lnDeadT[STATS_MAXT+1];$/;"	m	struct:_Stats
+lnINF	HLVRec.h	/^   unsigned long lnINF;$/;"	m	struct:_Stats
+lnLiveT	HLVRec.h	/^   unsigned long lnLiveT[STATS_MAXT+1];$/;"	m	struct:_Stats
+lnSEsil	HLVNet.h	/^   LexNode *lnSEsil;            \/* sil lexnode leading to SENT_END *\/$/;"	m	struct:_LexNet
+lnSEsil	HLVNet.h	/^   TLexNode *lnSEsil;            \/* sil lexnode leading to SENT_END *\/$/;"	m	struct:_TLexNet
+lnSEsp	HLVNet.h	/^   LexNode *lnSEsp;             \/* sp lexnode leading to SENT_END *\/$/;"	m	struct:_LexNet
+lnSEsp	HLVNet.h	/^   TLexNode *lnSEsp;             \/* sp lexnode leading to SENT_END *\/$/;"	m	struct:_TLexNet
+loWE	HLVNet.h	/^   LMId loWE;$/;"	m	struct:_LMlaNode
+loWE	HLVNet.h	/^   int loWE;            \/* lowest WE LMId reachable from here *\/$/;"	m	struct:_TLexNode
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+log_prune	HLVRec.h	/^   kaldi::BaseFloat log_prune;$/;"	m	struct:_DecoderInst
+lookahead	HLVLM.h	/^   LogFloat (*lookahead) (FSLM *lm, LMState src, PronId minPron, PronId maxPron);$/;"	m	struct:_FSLM
+loop_scale	HLVRec.h	/^   float loop_scale;$/;"	m	struct:_DecoderInst
+lrelTokHeap	HLVRec.h	/^   MemHeap lrelTokHeap;         \/* MHEAP for larger size RelToken arrays (e.g. 6 * dec->nTok-1 elements) *\/$/;"	m	struct:_DecoderInst
+main	HDecode.cpp	/^main (int argc, char *argv[])$/;"	f
+main	HDecode.mod.c	/^main (int argc, char *argv[])$/;"	f
+main	HLRescore.cpp	/^int main(int argc, char *argv[])$/;"	f
+mandir	Makefile	/^mandir = ${prefix}\/share\/man$/;"	m
+maxLMLA	HLVRec.c	/^static LogFloat maxLMLA = -LZERO; \/* maximum jump in LM lookahead per model *\/$/;"	v	file:
+maxLMLA	HLVRec.h	/^   float maxLMLA;               \/* maximum jump in LM lookahead per model *\/$/;"	m	struct:_DecoderInst
+maxLNBeamFlr	HLVRec.c	/^static float maxLNBeamFlr = 0.8;        \/* maximum percentile of glogal beam for max model pruning *\/$/;"	v	file:
+maxModel	HDecode.cpp	/^static int maxModel = 0;        \/* max model pruning *\/$/;"	v	file:
+maxModel	HDecode.mod.c	/^static int maxModel = 0;        \/* max model pruning *\/$/;"	v	file:
+maxModel	HLVRec.h	/^   int maxModel;                \/* for max model pruning (set by -u cmd line option) *\/$/;"	m	struct:_DecoderInst
+maxNStates	HLVRec.h	/^   int maxNStates;              \/* max number of states in a HMM in HMMSet *\/$/;"	m	struct:_DecoderInst
+mergeDir	HLRescore.cpp	/^static char *mergeDir;          \/* lattice merging direction *\/$/;"	v	file:
+mergeLat	HLRescore.cpp	/^static Boolean mergeLat = FALSE;    \/* -m *\/$/;"	v	file:
+mergeTokOnly	HLVRec.c	/^static Boolean mergeTokOnly = TRUE;     \/* if merge token set with pruning *\/$/;"	v	file:
+mixOutP	HLVRec.h	/^   LogFloat *mixOutP;$/;"	m	struct:_OutPCache
+mixPerBlock	HLVModel.h	/^   unsigned long mixPerBlock;$/;"	m	struct:_StateInfo_lv
+mixT	HLVRec.h	/^   int *mixT;$/;"	m	struct:_OutPCache
+mlf_fn	HDecode.cpp	/^static char* mlf_fn = NULL;$/;"	v	file:
+mmf_fn	HDecode.cpp	/^static char* mmf_fn = NULL;$/;"	v	file:
+modAlign	HLVRec.h	/^   Boolean modAlign;$/;"	m	struct:_DecoderInst
+modelHeap	HDecode.cpp	/^static MemHeap modelHeap;$/;"	v	file:
+modelHeap	HDecode.mod.c	/^static MemHeap modelHeap;$/;"	v	file:
+modendHypHeap	HLVRec.h	/^   MemHeap modendHypHeap;       \/* MHEAP for word end hyps *\/$/;"	m	struct:_DecoderInst
+modpath	HLVRec.h	/^   ModendHyp *modpath;          \/* model level traceback *\/$/;"	m	struct:_AltWordendHyp
+modpath	HLVRec.h	/^   ModendHyp *modpath;          \/* model level traceback *\/$/;"	m	struct:_RelToken
+modpath	HLVRec.h	/^   ModendHyp *modpath;          \/* model level traceback *\/$/;"	m	struct:_WordendHyp
+monoId	HLVNet.c	/^      LabId monoId;$/;"	m	union:_STLexNode::__anon3	file:
+monoPhone	HLVRec.h	/^   LabId monoPhone[100];           \/* #### hard limit -- fix this *\/$/;"	m	struct:_DecoderInst
+mts_copy	HLVRec-propagate.c	/^static int mts_copy = 0;$/;"	v	file:
+mts_fast	HLVRec-propagate.c	/^static int mts_fast = 0;$/;"	v	file:
+mts_newid	HLVRec-propagate.c	/^static int mts_newid = 0;$/;"	v	file:
+mts_newidNTOK	HLVRec-propagate.c	/^static int mts_newidNTOK = 0;$/;"	v	file:
+mts_slow	HLVRec-propagate.c	/^static int mts_slow = 0;$/;"	v	file:
+n	HLVNet.h	/^   int n;$/;"	m	struct:_CompLMlaNode
+n	HLVRec.h	/^   unsigned short n;$/;"	m	struct:_TokenSet
+nActivate	HLVRec.h	/^   unsigned long nActivate;$/;"	m	struct:_Stats
+nActive	HLVRec.h	/^   unsigned long nActive;$/;"	m	struct:_Stats
+nBlocks	HLVModel.h	/^   unsigned long nBlocks;$/;"	m	struct:_StateInfo_lv
+nCompNodes	HLVNet.h	/^   int nCompNodes;              \/* number of complex nodes in LM LA tree *\/$/;"	m	struct:_LMlaTree
+nDeActivate	HLVRec.h	/^   unsigned long nDeActivate;$/;"	m	struct:_Stats
+nDim	HLVModel.h	/^   unsigned long nDim;         \/* real number of dimensions, e.g. 39 *\/$/;"	m	struct:_StateInfo_lv
+nEntries	HLVRec.h	/^   int nEntries;$/;"	m	struct:_LMNodeCache
+nFrames	HLVRec.h	/^   unsigned long nFrames;$/;"	m	struct:_Stats
+nInst	HLVRec-misc.c	/^   int nInst;$/;"	m	struct:_LayerStats	file:
+nLMlaCacheHit	HLVRec.h	/^   unsigned long nLMlaCacheHit;$/;"	m	struct:_Stats
+nLMlaCacheMiss	HLVRec.h	/^   unsigned long nLMlaCacheMiss;$/;"	m	struct:_Stats
+nLayers	HLVNet.h	/^   int nLayers;                 \/* nuber of node layers *\/$/;"	m	struct:_LexNet
+nLayers	HLVRec.h	/^   int nLayers;                 \/* nuber of node layers *\/$/;"	m	struct:_DecoderInst
+nMix	HLVRec.h	/^   int nMix;$/;"	m	struct:_OutPCache
+nNode	HLVRec.h	/^   int nNode;$/;"	m	struct:_LMCache
+nNodeA	HLVNet.h	/^   int nNodeA;         \/* hastable of A LexNodes *\/$/;"	m	struct:_TLexNet
+nNodeBY	HLVNet.h	/^   int nNodeBY;         \/* linked list of nodes in main prefix tree B -- Y *\/$/;"	m	struct:_TLexNet
+nNodeSIL	HLVNet.h	/^   int nNodeSIL;         \/* linked list of silencs (sil\/sp) nodes between ZS and SA *\/$/;"	m	struct:_TLexNet
+nNodeZ	HLVNet.h	/^   int nNodeZ;         \/* hastable of Z LexNodes *\/$/;"	m	struct:_TLexNet
+nNodes	HLVNet.h	/^   int nNodes;                  \/* number of nodes in LM LA tree *\/$/;"	m	struct:_LMlaTree
+nNodes	HLVNet.h	/^   int nNodes;$/;"	m	struct:_LexNet
+nNodesLayer	HLVNet.h	/^   int nNodesLayer[NLAYERS]; \/* number of nodes in each layer *\/$/;"	m	struct:_TLexNet
+nObs	HLVRec.h	/^   int nObs;                    \/* num of valid obs in bock *\/$/;"	m	struct:_DecoderInst
+nParm	HDecode.cpp	/^static int nParm = 0;		\/* total num params *\/$/;"	v	file:
+nParm	HDecode.mod.c	/^static int nParm = 0;		\/* total num params *\/$/;"	v	file:
+nParm	HLRescore.cpp	/^static int nParm = 0;            \/* total num params *\/$/;"	v	file:
+nParm	HLVLM.c	/^static int nParm = 0;$/;"	v	file:
+nParm	HLVModel.c	/^static int nParm = 0;$/;"	v	file:
+nParm	HLVNet.c	/^static int nParm = 0;$/;"	v	file:
+nParm	HLVRec.c	/^static int nParm = 0;$/;"	v	file:
+nPhone	HLVRec.h	/^   int nPhone;$/;"	m	struct:_DecoderInst
+nPronIds	HLVNet.h	/^   int nPronIds;        \/* number of wordend Ids assigned, should be = voc->nprons *\/$/;"	m	struct:_TLexNet
+nStates	HLVRec.h	/^   int nStates;$/;"	m	struct:_OutPCache
+nTS	HLVRec-misc.c	/^   int nTS;$/;"	m	struct:_LayerStats	file:
+nTok	HDecode.cpp	/^static int nTok = 32;           \/* number of different LMStates per HMM state *\/$/;"	v	file:
+nTok	HDecode.mod.c	/^static int nTok = 32;           \/* number of different LMStates per HMM state *\/$/;"	v	file:
+nTok	HLVRec-misc.c	/^   int nTok;$/;"	m	struct:_LayerStats	file:
+nTok	HLVRec.h	/^   int nTok;                    \/* max number of tokens per state *\/$/;"	m	struct:_DecoderInst
+nTokSet	HLVRec.h	/^   unsigned long nTokSet;$/;"	m	struct:_Stats
+nVec	HLVModel.h	/^   unsigned long nVec;         \/* number of vecotrs (e.g. 10 = RoundAlign (nDim,  HLVMODEL_VEC_PAD) *\/$/;"	m	struct:_StateInfo_lv
+name	HLVLM.h	/^   char *name;$/;"	m	struct:_FSLM
+nebo	HLVLM.h	/^   struct nentry *nebo;                \/* NEntry for back-off *\/$/;"	m	struct:nentry	typeref:struct:nentry::nentry
+nentry	HLVLM.h	/^typedef struct nentry {         \/* HLM NGram history *\/$/;"	s
+net	HDecode.cpp	/^static LexNet *net;             \/* Lexicon network of all required words\/prons *\/$/;"	v	file:
+net	HDecode.mod.c	/^static LexNet *net;             \/* Lexicon network of all required words\/prons *\/$/;"	v	file:
+net	HLVRec.h	/^   LexNet *net;                 \/* network, contains pointers to Vocab and HMMSet *\/$/;"	m	struct:_DecoderInst
+netHeap	HDecode.cpp	/^static MemHeap netHeap;$/;"	v	file:
+netHeap	HDecode.mod.c	/^static MemHeap netHeap;$/;"	v	file:
+next	HDecode.cpp	/^   BestInfo *next;$/;"	m	struct:_BestInfo	file:
+next	HDecode.mod.c	/^   BestInfo *next;$/;"	m	struct:_BestInfo	file:
+next	HLVNet.c	/^   STLexLink *next[2];$/;"	m	struct:_STLexLink	file:
+next	HLVNet.h	/^   TLexLink *next;              \/* next link from this start node *\/$/;"	m	struct:_TLexLink
+next	HLVNet.h	/^   TLexNode *next;               \/* next node in hash table for some net part (A, B..Y or Z) *\/$/;"	m	struct:_TLexNode
+next	HLVRec.h	/^   AltWordendHyp *next;$/;"	m	struct:_AltWordendHyp
+next	HLVRec.h	/^   LexNodeInst *next;           \/* next instance in linked linst for this layer *\/$/;"	m	struct:_LexNodeInst
+next	HLVRec.h	/^   struct _LMLACacheEntry *next;$/;"	m	struct:_LMLACacheEntry	typeref:struct:_LMLACacheEntry::_LMLACacheEntry
+nextFree	HLVRec.h	/^   int nextFree;$/;"	m	struct:_LMNodeCache
+nfoll	HLVLM.h	/^   int nfoll;$/;"	m	struct:_FSLM_LatNode
+nfoll	HLVNet.h	/^   short nfoll;$/;"	m	struct:_LexNode
+nglm	HLVLM.h	/^      FSLM_ngram *nglm;$/;"	m	union:_FSLM::__anon2
+nlexA	HLVNet.h	/^   int nlexA;           \/* array of initial phones *\/$/;"	m	struct:_TLexNet
+nlexAB	HLVNet.h	/^   int nlexAB;          \/* hastable of A-B contexts *\/$/;"	m	struct:_TLexNet
+nlexP	HLVNet.h	/^   int nlexP;           \/* array of phones in single phone words*\/$/;"	m	struct:_TLexNet
+nlexSA	HLVNet.h	/^   int nlexSA;         \/* hastable of (Z+'sil') - A contexts *\/$/;"	m	struct:_TLexNet
+nlexYZ	HLVNet.h	/^   int nlexYZ;         \/* hastable of Y-Z contexts *\/$/;"	m	struct:_TLexNet
+nlexZ	HLVNet.h	/^   int nlexZ;           \/* array of final phones *\/$/;"	m	struct:_TLexNet
+nlexZS	HLVNet.h	/^   int nlexZS;         \/* hastable of Z - (A+'sil') contexts *\/$/;"	m	struct:_TLexNet
+nlinks	HLVNet.h	/^   int nlinks;$/;"	m	struct:_TLexNode
+nnodes	HLVLM.h	/^   int nnodes;$/;"	m	struct:_FSLM_latlm
+node	HLVNet.c	/^   STLexNode *node[2];  \/* numbered left to right *\/$/;"	m	struct:_STLexLink	file:
+node	HLVNet.h	/^   LMlaNode *node;              \/* [0..nNodes-1] arry of entries *\/$/;"	m	struct:_LMlaTree
+node	HLVNet.h	/^   LexNode *node;               \/* pointer to array of LexNodes *\/$/;"	m	struct:_LexNet
+node	HLVRec.h	/^   LMNodeCache **node;$/;"	m	struct:_LMCache
+node	HLVRec.h	/^   LexNode *node;$/;"	m	struct:_LexNodeInst
+nodeAhash	HLVNet.h	/^   TLexNode *nodeAhash[LEX_MOD_HASH_SIZE];$/;"	m	struct:_TLexNet
+nodeBY	HLVNet.h	/^   TLexNode *nodeBY;$/;"	m	struct:_TLexNet
+nodeHeap	HLVRec.h	/^   MemHeap nodeHeap;            \/* MHEAP for LMNodeCache entries *\/$/;"	m	struct:_LMCache
+nodeInstanceHeap	HLVRec.h	/^   MemHeap nodeInstanceHeap;    \/* MHEAP for LexNodeInsts *\/$/;"	m	struct:_DecoderInst
+nodeSIL	HLVNet.h	/^   TLexNode *nodeSIL;$/;"	m	struct:_TLexNet
+nodeZhash	HLVNet.h	/^   TLexNode *nodeZhash[LEX_MOD_HASH_SIZE];$/;"	m	struct:_TLexNet
+nse	HLVLM.h	/^   LMId nse;                    \/* Number of ngrams for this entry *\/$/;"	m	struct:nentry
+nsize	HLVLM.h	/^   int nsize;                   \/* Unigram==1, Bigram==2, Trigram==3 *\/$/;"	m	struct:_FSLM_ngram
+nullLab	HLRescore.cpp	/^static LabId nullLab;           \/* !NULL LabId *\/$/;"	v	file:
+numUtts	HLVRec.h	/^   size_t numUtts;$/;"	m	struct:_DecoderInst
+obs	HDecode.cpp	/^static Observation *obs;        \/* array of Observations *\/$/;"	v	file:
+obs	HDecode.mod.c	/^static Observation *obs;        \/* array of Observations *\/$/;"	v	file:
+obs	HLVRec.h	/^   Observation *obs;            \/* Observation for current frame *\/$/;"	m	struct:_DecoderInst
+obsBlock	HLVRec.h	/^   Observation *obsBlock[MAXBLOCKOBS]; \/* block of current and future Observations *\/$/;"	m	struct:_DecoderInst
+ofmt	HDecode.cpp	/^static FileFormat ofmt = UNDEFF;	\/* Label output file format *\/$/;"	v	file:
+ofmt	HDecode.mod.c	/^static FileFormat ofmt = UNDEFF;	\/* Label output file format *\/$/;"	v	file:
+ofmt	HLRescore.cpp	/^static FileFormat ofmt=UNDEFF;  \/* Label output file format *\/$/;"	v	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+outPCache	HLVRec.h	/^   OutPCache *outPCache;        \/* cache of outP values for block of observations *\/$/;"	m	struct:_DecoderInst
+outpBlocksize	HDecode.cpp	/^static int outpBlocksize = 1;   \/* number of frames for which outP is calculated in one go *\/$/;"	v	file:
+outpBlocksize	HDecode.mod.c	/^static int outpBlocksize = 1;   \/* number of frames for which outP is calculated in one go *\/$/;"	v	file:
+path	HLVRec.h	/^   WordendHyp *path;            \/* word level path for traceback *\/$/;"	m	struct:_RelToken
+path	HLVRec.h	/^   WordendHyp *path;            \/* word level path for traceback *\/$/;"	m	struct:_Token
+pde	HLVRec.c	/^static Boolean pde = FALSE;      \/* partial distance elimination *\/$/;"	v	file:
+phoneFreq	HLVRec.h	/^   int *phoneFreq;$/;"	m	struct:_DecoderInst
+phonePost	HLVRec.h	/^   LogDouble *phonePost;$/;"	m	struct:_DecoderInst
+phone_set_ptr	HLVRec.h	/^   vulcan::PhoneSet* phone_set_ptr;$/;"	m	struct:_DecoderInst
+prScale	HLRescore.cpp	/^static double prScale = 1.0;    \/* pronunciation scale factor *\/$/;"	v	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prev	HLVRec.h	/^   ModendHyp *prev;             \/* previous model info *\/$/;"	m	struct:_ModendHyp
+prev	HLVRec.h	/^   WordendHyp *prev;            \/* previous word info *\/$/;"	m	struct:_AltWordendHyp
+prev	HLVRec.h	/^   WordendHyp *prev;            \/* previous word info *\/$/;"	m	struct:_WordendHyp
+prob	HLVLM.h	/^   NGLM_Prob prob;              \/* probability *\/$/;"	m	struct:sentry
+prob	HLVLM.h	/^   float prob;                  \/* probability *\/$/;"	m	struct:_FSLM_LatArc
+prob	HLVRec.h	/^   LMTokScore prob;$/;"	m	struct:_LMCacheLA
+prob	HLVRec.h	/^   LMTokScore prob;$/;"	m	struct:_LMLACacheEntry
+pron	HLVNet.c	/^      Pron pron;$/;"	m	union:_STLexNode::__anon3	file:
+pron	HLVNet.h	/^      PronId pron;$/;"	m	union:_LexNode::__anon4
+pron	HLVNet.h	/^   Pron pron;$/;"	m	struct:_TLexNode
+pron	HLVRec.h	/^   PronId pron;                 \/* pronunciation chosen *\/$/;"	m	struct:_WordendHyp
+pronId2LMId	HLVLM.h	/^   LMId *pronId2LMId;           \/* PronId -> LMId mapping array [1..voc->nprons] $/;"	m	struct:_FSLM_ngram
+pronScale	HDecode.cpp	/^static float pronScale = 1.0;   \/* pronunciation scaling factor *\/$/;"	v	file:
+pronScale	HDecode.mod.c	/^static float pronScale = 1.0;   \/* pronunciation scaling factor *\/$/;"	v	file:
+pronScale	HLVRec.h	/^   float pronScale;             \/* pronunciation scaling factor *\/$/;"	m	struct:_DecoderInst
+pronlist	HLVNet.h	/^   Pron *pronlist;              \/* array [1..voc->nprons]  of Prons for given PronId *\/$/;"	m	struct:_LexNet
+pruneInArcsPerSec	HLRescore.cpp	/^static LogDouble pruneInArcsPerSec = 0.0;  \/* arcs per second threshold (-t) *\/$/;"	v	file:
+pruneInLat	HLRescore.cpp	/^static Boolean pruneInLat = FALSE;  \/* -t *\/$/;"	v	file:
+pruneInThresh	HLRescore.cpp	/^static LogDouble pruneInThresh = - LZERO;  \/* beam for pruning (-t) *\/$/;"	v	file:
+pruneOutArcsPerSec	HLRescore.cpp	/^static LogDouble pruneOutArcsPerSec = 0.0; \/* arcs per second threshold (-u) *\/$/;"	v	file:
+pruneOutLat	HLRescore.cpp	/^static Boolean pruneOutLat = FALSE; \/* -u *\/$/;"	v	file:
+pruneOutThresh	HLRescore.cpp	/^static LogDouble pruneOutThresh = - LZERO; \/* beam for pruning (-u) *\/$/;"	v	file:
+rawMITFormat	HLVLM.c	/^static Boolean rawMITFormat = FALSE;    \/* by default do not use HTK quoting *\/$/;"	v	file:
+rc	HLVNet.h	/^   LabId rc;            \/* right context phone *\/$/;"	m	struct:_TLexNode
+recCHeap	HLVRec.c	/^MemHeap recCHeap;                       \/* CHEAP for small general allocation *\/$/;"	v
+regHeap	HDecode.cpp	/^static MemHeap regHeap;$/;"	v	file:
+regHeap	HDecode.mod.c	/^static MemHeap regHeap;$/;"	v	file:
+relBeamWidth	HDecode.cpp	/^static LogFloat relBeamWidth = - LZERO;  \/* pruning relative beam width *\/$/;"	v	file:
+relBeamWidth	HDecode.mod.c	/^static LogFloat relBeamWidth = - LZERO;  \/* pruning relative beam width *\/$/;"	v	file:
+relBeamWidth	HLVRec.h	/^   RelTokScore relBeamWidth;    \/* beamWidth of relative tokenset  beam *\/$/;"	m	struct:_DecoderInst
+relTok	HLVRec.h	/^   RelToken *relTok;            \/*# sorted by LMState? *\/$/;"	m	struct:_TokenSet
+relTokHeap	HLVRec.h	/^   MemHeap relTokHeap;          \/* MHEAP for RelToken arrays (dec->nTok-1 elements) *\/$/;"	m	struct:_DecoderInst
+root	HLVNet.h	/^   TLexNode *root;	\/* global chain of all nodes *\/$/;"	m	struct:_TLexNet
+samp_rate	HLVRec.h	/^   int samp_rate;$/;"	m	struct:_DecoderInst
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+score	HLVRec.h	/^    kaldi::BaseFloat score(kaldi::int32 frame, int sIdx) {$/;"	f	class:SenoneScoreAmDiagGmm
+score	HLVRec.h	/^    kaldi::BaseFloat score(kaldi::int32 frame, int sIdx) {$/;"	f	class:SenoneScoreAmSgmm
+score	HLVRec.h	/^    kaldi::BaseFloat score(kaldi::int32 frame, int sIdx) {$/;"	f	class:SenoneScoreAmSgmm2
+score	HLVRec.h	/^   TokScore  score;             \/* current likelihood of token, $/;"	m	struct:_Token
+score	HLVRec.h	/^   TokScore score;              \/* total likelihood at end of word (time t) *\/$/;"	m	struct:_AltWordendHyp
+score	HLVRec.h	/^   TokScore score;              \/* total likelihood at end of word (time t) *\/$/;"	m	struct:_WordendHyp
+score	HLVRec.h	/^   TokScore score;$/;"	m	struct:_TokenSet
+score_interface_gmm_ptr	HLVRec.h	/^   SenoneScoreAmDiagGmm* score_interface_gmm_ptr;$/;"	m	struct:_DecoderInst
+score_interface_sgmm2_ptr	HLVRec.h	/^   SenoneScoreAmSgmm2* score_interface_sgmm2_ptr;$/;"	m	struct:_DecoderInst
+score_interface_sgmm_ptr	HLVRec.h	/^   SenoneScoreAmSgmm* score_interface_sgmm_ptr;$/;"	m	struct:_DecoderInst
+score_weight	HLVRec.h	/^   float score_weight;$/;"	m	struct:_DecoderInst
+se	HLVLM.h	/^   SEntry *se;                  \/* Array[0..nse-1] of ngram probabilities *\/$/;"	m	struct:nentry
+se_cmp	HLVLM.c	/^static int se_cmp(const void *v1,const void *v2)$/;"	f	file:
+senone_map_gmm_ptr	HLVRec.h	/^   std::vector<kaldi::int32>* senone_map_gmm_ptr;$/;"	m	struct:_DecoderInst
+senone_map_score_ptr	HLVRec.h	/^   std::vector<kaldi::int32>* senone_map_score_ptr;$/;"	m	struct:_DecoderInst
+senone_map_sgmm2_ptr	HLVRec.h	/^   std::vector<kaldi::int32>* senone_map_sgmm2_ptr;$/;"	m	struct:_DecoderInst
+senone_map_sgmm_ptr	HLVRec.h	/^   std::vector<kaldi::int32>* senone_map_sgmm_ptr;$/;"	m	struct:_DecoderInst
+senone_score_table	HLVRec.h	/^   kaldi::SequentialBaseFloatMatrixReader* senone_score_table;$/;"	m	struct:_DecoderInst
+sentry	HLVLM.h	/^typedef struct sentry {         \/* HLM NGram probability *\/$/;"	s
+sgmm2_weight	HLVRec.h	/^   float sgmm2_weight;$/;"	m	struct:_DecoderInst
+sgmm_weight	HLVRec.h	/^   float sgmm_weight;$/;"	m	struct:_DecoderInst
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+si	HLVModel.h	/^   StateInfo **si;              \/* pointers to HModel:StateInfos  for USEHMODEL=T *\/$/;"	m	struct:_StateInfo_lv
+si	HLVRec.h	/^   StateInfo_lv *si;$/;"	m	struct:_DecoderInst
+silDict	HDecode.cpp	/^static Boolean silDict = FALSE; \/* does dict contain -\/sp\/sil variants with probs *\/$/;"	v	file:
+silDict	HDecode.mod.c	/^static Boolean silDict = FALSE; \/* does dict contain -\/sp\/sil variants with probs *\/$/;"	v	file:
+silDict	HLVNet.h	/^   Boolean silDict;             \/* does dict contain -\/sp\/sil variants and pronprobs? *\/$/;"	m	struct:_LexNet
+silDict	HLVNet.h	/^   Boolean silDict;     \/* does dict contain -\/sp\/sil variants and pronprobs? *\/$/;"	m	struct:_TLexNet
+silLab	HDecode.cpp	/^static LabId silLab;            \/*   corresponding LabId *\/$/;"	v	file:
+silLab	HDecode.mod.c	/^static LabId silLab;            \/*   corresponding LabId *\/$/;"	v	file:
+silModel	HDecode.cpp	/^static char *silModel = "sil";  \/* model used as word end Silence *\/$/;"	v	file:
+silModel	HDecode.mod.c	/^static char *silModel = "sil";  \/* model used as word end Silence *\/$/;"	v	file:
+size	HLVRec.h	/^   int size;$/;"	m	struct:_LMNodeCache
+sortLattice	HLRescore.cpp	/^static Boolean sortLattice = TRUE;         \/* sort lattice nodes by time & posterior *\/$/;"	v	file:
+spLab	HDecode.cpp	/^static LabId spLab;             \/*   corresponding LabId *\/$/;"	v	file:
+spLab	HDecode.mod.c	/^static LabId spLab;             \/*   corresponding LabId *\/$/;"	v	file:
+spModel	HDecode.cpp	/^static char *spModel = "sp";    \/* model used as word end Short Pause *\/$/;"	v	file:
+spModel	HDecode.mod.c	/^static char *spModel = "sp";    \/* model used as word end Short Pause *\/$/;"	v	file:
+spSkipLayer	HLVNet.h	/^   int spSkipLayer;             \/* id of layer where tokens get pronprob added and bypass sp *\/$/;"	m	struct:_LexNet
+spk_vars_sgmm2_ptr	HLVRec.h	/^   kaldi::Sgmm2PerSpkDerivedVars* spk_vars_sgmm2_ptr;$/;"	m	struct:_DecoderInst
+spk_vars_sgmm_ptr	HLVRec.h	/^   kaldi::SgmmPerSpkDerivedVars* spk_vars_sgmm_ptr;$/;"	m	struct:_DecoderInst
+spkvecs_reader_sgmm2_ptr	HLVRec.h	/^   kaldi::RandomAccessBaseFloatVectorReaderMapped* spkvecs_reader_sgmm2_ptr;$/;"	m	struct:_DecoderInst
+spkvecs_reader_sgmm_ptr	HLVRec.h	/^   kaldi::RandomAccessBaseFloatVectorReaderMapped* spkvecs_reader_sgmm_ptr;$/;"	m	struct:_DecoderInst
+src	HLVRec.h	/^   LMState *src;$/;"	m	struct:_LMCacheLA
+src	HLVRec.h	/^   LMState src;$/;"	m	struct:_LMLACacheEntry
+srcdir	Makefile	/^srcdir = .$/;"	m
+start	HDecode.cpp	/^   int start;           \/* frame numbers *\/$/;"	m	struct:_BestInfo	file:
+start	HDecode.mod.c	/^   int start;           \/* frame numbers *\/$/;"	m	struct:_BestInfo	file:
+start	HLVNet.h	/^   LexNode *start;              \/* single start node *\/$/;"	m	struct:_LexNet
+start	HLVNet.h	/^   TLexNode *start;     \/* start node of network *\/$/;"	m	struct:_TLexNet
+start	HLVNet.h	/^   TLexNode *start;$/;"	m	struct:_TLexLink
+startId	HLVNet.h	/^   LabId startId;       \/* id of STARTWORD (from config) *\/$/;"	m	struct:_TLexNet
+startLMWord	HLRescore.cpp	/^static char *startLMWord;       \/* word at start in LM (<s>) *\/$/;"	v	file:
+startLab	HDecode.cpp	/^static LabId startLab;          \/*   corresponding LabId *\/$/;"	v	file:
+startLab	HDecode.mod.c	/^static LabId startLab;          \/*   corresponding LabId *\/$/;"	v	file:
+startLab	HLRescore.cpp	/^static LabId startLab;          \/* corresponding LabId *\/$/;"	v	file:
+startPron	HLVNet.h	/^   PronId startPron;            \/* pron of <s> *\/$/;"	m	struct:_LexNet
+startPronId	HLVLM.h	/^   PronId startPronId;$/;"	m	struct:_FSLM
+startTok	HLVRec.c	/^RelToken startTok = {NULL, NULL, 0.0, 0.0, NULL};$/;"	v
+startWord	HDecode.cpp	/^static char *startWord = "<s>"; \/* word used at start of network *\/$/;"	v	file:
+startWord	HDecode.mod.c	/^static char *startWord = "<s>"; \/* word used at start of network *\/$/;"	v	file:
+startWord	HLRescore.cpp	/^static char *startWord;         \/* word at start of Lattice (!SENT_START) *\/$/;"	v	file:
+stateOutP	HLVRec.h	/^   LogFloat *stateOutP;$/;"	m	struct:_OutPCache
+stateT	HLVRec.h	/^   int *stateT;$/;"	m	struct:_OutPCache
+stats	HLVRec.h	/^   Stats stats;                 \/* statistics about pruning etc. *\/$/;"	m	struct:_DecoderInst
+stlLinkN	HLVNet.c	/^int stlLinkN = 0;$/;"	v
+stlNodeN	HLVNet.c	/^int stlNodeN = 0;$/;"	v
+sumTokPerTS	HLVRec.h	/^   unsigned long sumTokPerTS;$/;"	m	struct:_Stats
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+t	HLVRec.h	/^   int t;$/;"	m	struct:_LMNodeCache
+tempTS	HLVRec.h	/^   TokenSet **tempTS;           \/* temp tokset arrays for PropagateInternal() *\/$/;"	m	struct:_DecoderInst
+tnetHeap	HLVNet.c	/^static MemHeap tnetHeap;                \/* used for temporary data in net creation *\/$/;"	v	file:
+tokSetHeap	HLVRec.h	/^   MemHeap *tokSetHeap;         \/* MHEAPs for N TokenSet arrays *\/$/;"	m	struct:_DecoderInst
+tokSetIdCount	HLVRec.h	/^   unsigned int tokSetIdCount;\/* max id used so far for token sets *\/$/;"	m	struct:_DecoderInst
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+trace	HDecode.cpp	/^static int trace = 0;$/;"	v	file:
+trace	HDecode.mod.c	/^static int trace = 0;$/;"	v	file:
+trace	HLRescore.cpp	/^static int trace = 0;$/;"	v	file:
+trace	HLVLM.c	/^static int trace=0;$/;"	v	file:
+trace	HLVModel.c	/^static int trace=0;$/;"	v	file:
+trace	HLVNet.c	/^static int trace=0;$/;"	v	file:
+trace	HLVRec.c	/^static int trace=0;$/;"	v	file:
+transHeap	HDecode.cpp	/^static MemHeap transHeap;$/;"	v	file:
+transHeap	HDecode.mod.c	/^static MemHeap transHeap;$/;"	v	file:
+transHeap	HLRescore.cpp	/^static MemHeap transHeap;$/;"	v	file:
+transHit	HLVRec.h	/^   int transHit;$/;"	m	struct:_LMCache
+transMiss	HLVRec.h	/^   int transMiss;$/;"	m	struct:_LMCache
+transProb	HLVLM.h	/^   LogFloat (*transProb) (FSLM *lm, LMState src, PronId pronId, LMState *dest);$/;"	m	struct:_FSLM
+trans_gmm_ptr	HLVRec.h	/^   kaldi::TransitionModel* trans_gmm_ptr;$/;"	m	struct:_DecoderInst
+trans_sgmm2_ptr	HLVRec.h	/^   kaldi::TransitionModel* trans_sgmm2_ptr;$/;"	m	struct:_DecoderInst
+trans_sgmm_ptr	HLVRec.h	/^   kaldi::TransitionModel* trans_sgmm_ptr;$/;"	m	struct:_DecoderInst
+transition_scale	HLVRec.h	/^   float transition_scale;$/;"	m	struct:_DecoderInst
+tree_gmm_ptr	HLVRec.h	/^   kaldi::ContextDependency* tree_gmm_ptr;$/;"	m	struct:_DecoderInst
+tree_score_ptr	HLVRec.h	/^   kaldi::ContextDependency* tree_score_ptr;$/;"	m	struct:_DecoderInst
+tree_sgmm2_ptr	HLVRec.h	/^   kaldi::ContextDependency* tree_sgmm2_ptr;$/;"	m	struct:_DecoderInst
+tree_sgmm_ptr	HLVRec.h	/^   kaldi::ContextDependency* tree_sgmm_ptr;$/;"	m	struct:_DecoderInst
+ts	HLVRec.h	/^   TokenSet *ts;                \/* array of TokenSets; one per state (incl. entry and exit) *\/$/;"	m	struct:_LexNodeInst
+type	HLVLM.h	/^   FSLMType type;$/;"	m	struct:_FSLM
+type	HLVNet.c	/^   STLexNodeType type;$/;"	m	struct:_STLexNode	file:
+type	HLVNet.h	/^   LexNodeType type;$/;"	m	struct:_TLexNode
+type	HLVNet.h	/^   unsigned char type;          \/* using char instead of enum can save 4 bytes! *\/$/;"	m	struct:_LexNode
+unigrams	HLVLM.h	/^   NGLM_Prob *unigrams;         \/* Unigram probabilities indexed by PronId! *\/$/;"	m	struct:_FSLM_ngram
+useHModel	HDecode.cpp	/^static Boolean useHModel = FALSE; \/* use standard HModel OutP functions *\/$/;"	v	file:
+useHModel	HDecode.mod.c	/^static Boolean useHModel = FALSE; \/* use standard HModel OutP functions *\/$/;"	v	file:
+useHModel	HLVModel.h	/^   Boolean useHModel;$/;"	m	struct:_StateInfo_lv
+useHModel	HLVRec.h	/^   Boolean useHModel;           \/* use normal HModel OutP() functions? *\/$/;"	m	struct:_DecoderInst
+useOldPrune	HLVRec.c	/^static Boolean useOldPrune = FALSE;     \/* backward compatibility for max model and reltok pruning etc. *\/$/;"	v	file:
+user	HLVRec.h	/^   int user;                  \/* general user info; #### get rid of this! *\/$/;"	m	struct:_WordendHyp
+uttAll	HLVRec.h	/^   float uttAll;$/;"	m	struct:_DecoderInst
+uttSec	HLVRec.h	/^   float uttSec;$/;"	m	struct:_DecoderInst
+utt_fn	HDecode.cpp	/^static char* utt_fn = NULL;$/;"	v	file:
+utterFN	HLVRec.h	/^   char *utterFN;               \/* name of current utterance *\/$/;"	m	struct:_DecoderInst
+voc	HLVNet.h	/^   Vocab *voc;$/;"	m	struct:_LexNet
+voc	HLVNet.h	/^   Vocab *voc;$/;"	m	struct:_TLexNet
+vocSize	HLVLM.h	/^   int vocSize;                 \/* Core LM size *\/$/;"	m	struct:_FSLM_ngram
+vocab	HDecode.cpp	/^static Vocab vocab;		\/* wordlist or dictionary *\/$/;"	v	file:
+vocab	HDecode.mod.c	/^static Vocab vocab;		\/* wordlist or dictionary *\/$/;"	v	file:
+vocab	HLRescore.cpp	/^static Vocab vocab;		\/* wordlist or dictionary *\/$/;"	v	file:
+vocab	HLVLM.h	/^   Vocab *vocab;                \/* Vocab used to find prons of words *\/$/;"	m	struct:_FSLM_ngram
+vocabFN	HLVNet.h	/^   char *vocabFN;$/;"	m	struct:_LexNet
+we	HLVNet.c	/^   Pron we;$/;"	m	struct:_STLexLink	file:
+weBeamWidth	HDecode.cpp	/^static LogFloat weBeamWidth = - LZERO;   \/* pruning wordend beam width *\/$/;"	v	file:
+weBeamWidth	HDecode.mod.c	/^static LogFloat weBeamWidth = - LZERO;   \/* pruning wordend beam width *\/$/;"	v	file:
+weBeamWidth	HLVRec.h	/^   TokScore weBeamWidth;        \/* wordend beam width (set by -v cmd line option) *\/$/;"	m	struct:_DecoderInst
+weHypHeap	HLVRec.h	/^   MemHeap weHypHeap;           \/* MHEAP for word end hyps *\/$/;"	m	struct:_DecoderInst
+we_tag	HLVRec.h	/^   void *we_tag;$/;"	m	struct:_RelToken
+winTok	HLVRec.h	/^   RelToken *winTok;            \/* RelTok array fro MergeTokSet() *\/$/;"	m	struct:_DecoderInst
+winTok_cmp	HLVRec-propagate.c	/^static int winTok_cmp (const void *v1,const void *v2)$/;"	f	file:
+word	HLVLM.h	/^   LMId word[NSIZE-1];          \/* Word history representing this entry *\/$/;"	m	struct:nentry
+word	HLVLM.h	/^   PronId word;                 \/* _Pron_ id !! *\/$/;"	m	struct:_FSLM_LatArc
+word	HLVLM.h	/^   PronId word;                 \/* _Pron_ id !! *\/$/;"	m	struct:sentry
+word	HLVLM.h	/^   Word word;$/;"	m	struct:_FSLM_LatNode
+wordEndLayerId	HLVNet.h	/^   int wordEndLayerId;          \/* id of layer where token's time and score are copied to weHyp *\/$/;"	m	struct:_LexNet
+wordPen	HLRescore.cpp	/^static LogDouble wordPen = 0.0; \/* inter word log penalty *\/$/;"	v	file:
+wordlist	HLVLM.h	/^   Word *wordlist;              \/* Lookup table for Words from LMId *\/$/;"	m	struct:_FSLM_ngram
+worstScore	HLVRec-misc.c	/^   TokScore worstScore;$/;"	m	struct:_LayerStats	file:
+wpNet	HLRescore.cpp	/^static Lattice *wpNet;          \/* the word level recognition network *\/$/;"	v	file:
+wpNetFile	HLRescore.cpp	/^static char *wpNetFile = NULL;  \/* word pair LM network filename *\/$/;"	v	file:
+writeLat	HLRescore.cpp	/^static Boolean writeLat = FALSE;    \/* -w *\/$/;"	v	file:
+xfInfo	HDecode.cpp	/^static XFInfo xfInfo;$/;"	v	file:
+xfInfo	HDecode.mod.c	/^static XFInfo xfInfo;$/;"	v	file:
+zsBeamWidth	HDecode.cpp	/^static LogFloat zsBeamWidth = - LZERO;   \/* pruning z-s beam width *\/$/;"	v	file:
+zsBeamWidth	HDecode.mod.c	/^static LogFloat zsBeamWidth = - LZERO;   \/* pruning z-s beam width *\/$/;"	v	file:
+zsBeamWidth	HLVRec.h	/^   TokScore zsBeamWidth;        \/* Z-S beam width (set by -v cmd line option) *\/$/;"	m	struct:_DecoderInst
