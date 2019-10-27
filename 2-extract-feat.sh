@@ -1,11 +1,4 @@
 
-if [ -f setup.sh ]; then
-  . setup.sh;
-else
-  echo "ERROR: setup.sh is missing!";
-  exit 1;
-fi
-
 cmvn_dir=exp/cmvn
 
 path=feat

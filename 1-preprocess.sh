@@ -1,9 +1,6 @@
 phoneset=material/phoneset.txt
-phonemap=material/phonemap.txt
 roots=material/roots.txt
-lexicon_train=material/lexicon.train.txt
-
-lexicon_decode=material/lexicon.decode.txt
+lexicon=material/lexicon.txt
 
 proto=material/topo.proto
 train_text=material/train.text
@@ -11,10 +8,8 @@ test_text=material/test.text
 
 echo "Data : "
 echo "    phone set = $phoneset"
-echo "    phone map = $phonemap"
 echo "    phone tree root = $roots"
-echo "    lexicon for training = $lexicon_train"
-echo "    lexicon for decoding = $lexicon_decode"
+echo "    lexicon = $lexicon"
 echo "    language model for decoding = $lm"
 echo "    phone HMM prototype = $proto"
 echo "    training set label (text) = $train_text"
@@ -30,7 +25,7 @@ cat $phoneset | awk 'BEGIN{ print "<eps> 0"; } { printf("%s %d\n", $1, NR); }' \
 
 ln -sf ../train/phones.txt decode/phones.txt
 
-ln -sf ../$phonemap train/phonemap.txt
+ln -sf ../$phoneset train/phoneset.txt
 
 utility/silphones.pl train/phones.txt sil \
   train/silphones.csl train/nonsilphones.csl
@@ -40,7 +35,7 @@ cat material/phoneset.txt | utility/remove.silence.pl sil \
 
 ln -sf ../$roots train/roots.txt
 
-cat $lexicon_train | grep -v "<s>\|</s>" \
+cat $lexicon | grep -v "<s>\|</s>" \
   > train/lexicon.txt
 
 cat train/lexicon.txt | awk '{print $1}' | sort | uniq \
@@ -60,7 +55,7 @@ sed -e "s:NONSILENCEPHONES:$nonsilphonelist:" \
 
 cat $train_text | utility/sym2int.pl --ignore-first-field train/words.txt > train/train.int
 
-ln -sf ../$lexicon_decode decode/lexicon.txt
+ln -sf ../$lexicon decode/lexicon.txt
 
 cat $test_text | python2 utility/word2char.py > decode/test.text
 
