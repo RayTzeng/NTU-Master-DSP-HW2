@@ -57,7 +57,7 @@ cat $train_text | utility/sym2int.pl --ignore-first-field train/words.txt > trai
 
 ln -sf ../$lexicon decode/lexicon.txt
 
-cat $test_text | python2 utility/word2char.py > decode/test.text
+cat $test_text | python utility/word2char.py > decode/test.text
 
 cat decode/test.text | cut -d ' ' -f 1 > decode/test.list
 

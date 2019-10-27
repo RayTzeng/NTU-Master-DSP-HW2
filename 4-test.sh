@@ -1,15 +1,11 @@
 #!/bin/bash
-
 srcdir=exp/mono
 dir=viterbi/mono
 
-lm=decode/lm.arpa.txt
-#lm=test.lm
+lm=material/lm.arpa.txt
 lex=decode/lexicon.txt
 test_feat=feat/test.39.cmvn.ark
 
-dev_acwt=0.10
-dev_beam=13.0
 test_beam=15.0
 
 mkdir -p $dir
@@ -30,7 +26,6 @@ fi
 
 timer=$SECONDS
 opt_acwt=0.2
-
 
 log=$dir/log/latgen.test.log
 echo "Generating results for test set with acoustic weight = [ $opt_acwt ]"
@@ -56,9 +51,6 @@ cat $dir/test.rec \
 acc=`grep "overall accuracy" $dir/test.acc | awk '{ print $4 }'`
 echo "    result -> $dir/test.rec"
 echo "    accuracy -> [ $acc ] %"
-
-echo "Cleaning lattices of dev set generated during decoding process"
-rm -f $dir/lat/*
 
 sec=$SECONDS
 

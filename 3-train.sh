@@ -9,7 +9,6 @@ numgauss=5                                  # Initial num-Gauss (must be more th
 totgauss=30                                 # Target #Gaussians.
 incgauss=$[($totgauss-$numgauss)/$maxiterinc] # per-iter increment for #Gauss
 realign_iters="1 2 3 4 5 6 7 8 9 10";
-#realign_iters="1 2 3 4 5 6 7 8 9 10 12 14 16 18 20 23 26 29 32 35 38";
 scale_opts="--transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1"
 
 mkdir -p $dir
@@ -81,7 +80,6 @@ else
   echo "        $dir/01.mdl exists , skipping ..."
 fi
 
-# TODO: complete the iterative training part
 
 iter=1
 beam=6
@@ -159,8 +157,6 @@ while [ $iter -le $numiters ]; do
   rm -f $dir/$x.* $dir/$y.*
   iter=$[$iter+1];
 done
-
-#
 
 sec=$SECONDS
 
