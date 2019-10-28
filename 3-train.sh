@@ -3,7 +3,7 @@
 dir=exp/mono
 feat=feat/train.39.cmvn.ark
 
-### paramaters that you can modify
+### parameters that you can modify
 numiters=5                                   # Number of iterations of training
 maxiterinc=4                                 # Last iter to increase #Gauss on.
 numgauss=1                                  # Initial num-Gauss (must be more than #states=3*phones).

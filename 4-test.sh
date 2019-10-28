@@ -7,7 +7,7 @@ lex=decode/lexicon.txt
 test_feat=feat/test.39.cmvn.ark
 
 
-### paramaters that you can modify
+### parameters that you can modify
 opt_acwt=0.87
 test_beam=15.0
 ###
