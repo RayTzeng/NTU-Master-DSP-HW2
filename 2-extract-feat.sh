@@ -26,9 +26,9 @@ add-deltas ark:$path/$target.13.ark ark:$path/$target.tmp.ark 2>> $log
 compute-cmvn-stats ark:$path/$target.tmp.ark ark:$path/$target.tmp.compute 2>> $log
 apply-cmvn ark:$path/$target.tmp.compute ark:$path/$target.tmp.ark ark,t,scp:$path/$target.39.cmvn.ark,$path/$target.39.cmvn.scp 2>> $log
 
+rm -rf feat/*13* feat/*tmp*
 
 sec=$SECONDS
-
 echo ""
 echo "Execution time for whole script = `utility/timer.pl $sec`"
 echo ""

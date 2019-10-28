@@ -6,11 +6,14 @@ lm=material/lm.arpa.txt
 lex=decode/lexicon.txt
 test_feat=feat/test.39.cmvn.ark
 
+
+### paramaters that you can modify
+opt_acwt=0.87
 test_beam=15.0
+###
 
 mkdir -p $dir
 mkdir -p $dir/log
-mkdir -p $dir/lat
 
 echo "Converting acoustic models to HTK format"
 if [ ! -f $dir/final.mmf ] || [ ! -f $dir/tiedlist ]; then
@@ -23,9 +26,6 @@ if [ ! -f $dir/final.mmf ] || [ ! -f $dir/tiedlist ]; then
 else
   echo "    $dir/final.mmf $dir/tiedlist exist , skipping ..."
 fi
-
-timer=$SECONDS
-opt_acwt=0.2
 
 log=$dir/log/latgen.test.log
 echo "Generating results for test set with acoustic weight = [ $opt_acwt ]"
