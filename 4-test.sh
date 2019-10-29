@@ -40,8 +40,7 @@ utility/Hybrid.HDecode.mod --trace=1 --beam=$test_beam \
   --gmm-weight=1.0 --gmm-mdl=$srcdir/final.mdl --gmm-tree=$srcdir/tree \
   --feature="ark,s,cs:$test_feat" \
   2> $log
-timer=$[$SECONDS-$timer]
-echo "    execution time for generating results for test set = `utility/timer.pl $timer`"
+
 cat $dir/test.mlf \
   | utility/result.htk2kaldi.pl \
   | python utility/word2char.py \
