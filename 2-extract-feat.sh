@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cmvn_dir=exp/cmvn
 path=feat
 options="--use-energy=false"
@@ -32,4 +34,3 @@ sec=$SECONDS
 echo ""
 echo "Execution time for whole script = `utility/timer.pl $sec`"
 echo ""
-

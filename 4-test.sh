@@ -1,4 +1,5 @@
 #!/bin/bash
+
 srcdir=exp/mono
 dir=viterbi/mono
 
@@ -57,4 +58,3 @@ sec=$SECONDS
 echo ""
 echo "Execution time for whole script = `utility/timer.pl $sec`"
 echo ""
-

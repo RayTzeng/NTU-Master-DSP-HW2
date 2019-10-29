@@ -1,3 +1,5 @@
+#!/bin/bash
+
 phoneset=material/phoneset.txt
 roots=material/roots.txt
 lexicon=material/lexicon.txt
