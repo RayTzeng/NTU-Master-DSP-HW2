@@ -1,10 +1,10 @@
-gmm-est --binary=false --min-gaussian-occupancy=3 --mix-up=106 --write-occs=exp/mono/34.occs exp/mono/33.mdl exp/mono/33.acc exp/mono/34.mdl 
-LOG (gmm-est[5.5.0~1-40c7]:MleUpdate():transition-model.cc:528) TransitionModel::Update, objf change is 1.88524e-05 per frame over 255857 frames. 
+gmm-est --binary=false --min-gaussian-occupancy=3 --mix-up=200 --write-occs=exp/mono/34.occs exp/mono/33.mdl exp/mono/33.acc exp/mono/34.mdl 
+LOG (gmm-est[5.5.0~1-40c7]:MleUpdate():transition-model.cc:528) TransitionModel::Update, objf change is 3.72987e-06 per frame over 255857 frames. 
 LOG (gmm-est[5.5.0~1-40c7]:MleUpdate():transition-model.cc:531) 3 probabilities floored, 0 out of 33 transition-states skipped due to insuffient data (it is normal to have some skipped.)
-LOG (gmm-est[5.5.0~1-40c7]:main():gmm-est.cc:102) Transition model update: Overall 1.88524e-05 log-like improvement per frame over 255857 frames.
-LOG (gmm-est[5.5.0~1-40c7]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 0 variance elements floored in 0 Gaussians, out of 103
+LOG (gmm-est[5.5.0~1-40c7]:main():gmm-est.cc:102) Transition model update: Overall 3.72987e-06 log-like improvement per frame over 255857 frames.
+LOG (gmm-est[5.5.0~1-40c7]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 0 variance elements floored in 0 Gaussians, out of 200
 LOG (gmm-est[5.5.0~1-40c7]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 0 Gaussians due to counts < --min-gaussian-occupancy=3 and --remove-low-count-gaussians=true
-LOG (gmm-est[5.5.0~1-40c7]:main():gmm-est.cc:113) GMM update: Overall 0.0313395 objective function improvement per frame over 255857 frames
-LOG (gmm-est[5.5.0~1-40c7]:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -95.9618 over 255857 frames.
-LOG (gmm-est[5.5.0~1-40c7]:SplitByCount():am-diag-gmm.cc:116) Split 33 states with target = 106, power = 0.2, perturb_factor = 0.01 and min_count = 20, split #Gauss from 103 to 106
+LOG (gmm-est[5.5.0~1-40c7]:main():gmm-est.cc:113) GMM update: Overall 0.0399154 objective function improvement per frame over 255857 frames
+LOG (gmm-est[5.5.0~1-40c7]:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -94.3475 over 255857 frames.
+LOG (gmm-est[5.5.0~1-40c7]:SplitByCount():am-diag-gmm.cc:116) Split 33 states with target = 200, power = 0.2, perturb_factor = 0.01 and min_count = 20, split #Gauss from 200 to 200
 LOG (gmm-est[5.5.0~1-40c7]:main():gmm-est.cc:146) Written model to exp/mono/34.mdl

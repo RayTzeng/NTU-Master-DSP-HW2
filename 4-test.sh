@@ -9,8 +9,8 @@ test_feat=feat/test.39.cmvn.ark
 
 
 ### parameters that you can modify
-opt_acwt=0.182
-test_beam=60.0
+opt_acwt=0.18
+test_beam=20.0
 ###
 
 mkdir -p $dir

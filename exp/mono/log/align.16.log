@@ -2238,6 +2238,6 @@ LOG (gmm-align-compiled[5.5.0~1-40c7]:main():gmm-align-compiled.cc:127) astmic-f
 LOG (gmm-align-compiled[5.5.0~1-40c7]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0306
 LOG (gmm-align-compiled[5.5.0~1-40c7]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0307
 LOG (gmm-align-compiled[5.5.0~1-40c7]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0308
-LOG (gmm-align-compiled[5.5.0~1-40c7]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -98.7609 over 255857 frames.
+LOG (gmm-align-compiled[5.5.0~1-40c7]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -96.9864 over 255857 frames.
 LOG (gmm-align-compiled[5.5.0~1-40c7]:main():gmm-align-compiled.cc:137) Retried 0 out of 2239 utterances.
 LOG (gmm-align-compiled[5.5.0~1-40c7]:main():gmm-align-compiled.cc:139) Done 2239, errors on 0

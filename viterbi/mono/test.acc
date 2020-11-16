@@ -131,9 +131,9 @@ acc: 100.00 % N: 1 C: 1 S: 0 D: 0 I: 0
 lab: 四 
 rec: 四 
 fid: astmic-fsi101-sen_0033
-acc: 0.00 % N: 1 C: 0 S: 1 D: 0 I: 0
+acc: 100.00 % N: 1 C: 1 S: 0 D: 0 I: 0
 lab: 二 
-rec: 八 
+rec: 二 
 fid: astmic-fsi101-sen_0034
 acc: 100.00 % N: 1 C: 1 S: 0 D: 0 I: 0
 lab: 八 
@@ -195,9 +195,9 @@ acc: 0.00 % N: 1 C: 0 S: 1 D: 0 I: 0
 lab: 二 
 rec: 一 
 fid: astmic-fsi101-sen_0049
-acc: 0.00 % N: 1 C: 1 S: 0 D: 0 I: 1
-lab:    九 
-rec: 七 九 
+acc: -100.00 % N: 1 C: 0 S: 1 D: 0 I: 1
+lab: 九    
+rec: 六 五 
 fid: astmic-fsi101-sen_0050
 acc: 100.00 % N: 1 C: 1 S: 0 D: 0 I: 0
 lab: 零 
@@ -571,9 +571,9 @@ acc: 50.00 % N: 2 C: 2 S: 0 D: 0 I: 1
 lab: 六    六 
 rec: 六 五 六 
 fid: astmic-fsi102-sen_0023
-acc: 50.00 % N: 2 C: 2 S: 0 D: 0 I: 1
-lab: 六    八 
-rec: 六 五 八 
+acc: 100.00 % N: 2 C: 2 S: 0 D: 0 I: 0
+lab: 六 八 
+rec: 六 八 
 fid: astmic-fsi102-sen_0024
 acc: 100.00 % N: 2 C: 2 S: 0 D: 0 I: 0
 lab: 五 六 
@@ -763,9 +763,9 @@ acc: 100.00 % N: 3 C: 3 S: 0 D: 0 I: 0
 lab: 四 八 八 
 rec: 四 八 八 
 fid: astmic-fsi103-sen_0011
-acc: 66.67 % N: 3 C: 2 S: 1 D: 0 I: 0
+acc: 100.00 % N: 3 C: 3 S: 0 D: 0 I: 0
 lab: 二 三 二 
-rec: 二 五 二 
+rec: 二 三 二 
 fid: astmic-fsi103-sen_0012
 acc: 100.00 % N: 3 C: 3 S: 0 D: 0 I: 0
 lab: 八 零 八 
@@ -911,9 +911,9 @@ acc: 100.00 % N: 3 C: 3 S: 0 D: 0 I: 0
 lab: 八 零 八 
 rec: 八 零 八 
 fid: astmic-fsi103-sen_0048
-acc: 100.00 % N: 3 C: 3 S: 0 D: 0 I: 0
+acc: 66.67 % N: 3 C: 2 S: 1 D: 0 I: 0
 lab: 一 二 五 
-rec: 一 二 五 
+rec: 一 六 五 
 fid: astmic-fsi103-sen_0049
 acc: 100.00 % N: 3 C: 3 S: 0 D: 0 I: 0
 lab: 八 五 零 
@@ -1103,9 +1103,9 @@ acc: 100.00 % N: 4 C: 4 S: 0 D: 0 I: 0
 lab: 五 九 七 六 
 rec: 五 九 七 六 
 fid: astmic-fsi104-sen_0036
-acc: 75.00 % N: 4 C: 3 S: 1 D: 0 I: 0
+acc: 100.00 % N: 4 C: 4 S: 0 D: 0 I: 0
 lab: 五 四 一 六 
-rec: 五 四 零 六 
+rec: 五 四 一 六 
 fid: astmic-fsi104-sen_0037
 acc: 100.00 % N: 4 C: 4 S: 0 D: 0 I: 0
 lab: 九 三 一 八 
@@ -1203,9 +1203,9 @@ acc: 100.00 % N: 5 C: 5 S: 0 D: 0 I: 0
 lab: 六 八 二 四 五 
 rec: 六 八 二 四 五 
 fid: astmic-fsi105-sen_0001
-acc: 80.00 % N: 5 C: 4 S: 0 D: 1 I: 0
+acc: 60.00 % N: 5 C: 3 S: 0 D: 2 I: 0
 lab: 九 七 一 一 六 
-rec: 九 七 一    六 
+rec: 九 七       六 
 fid: astmic-fsi105-sen_0002
 acc: 100.00 % N: 5 C: 5 S: 0 D: 0 I: 0
 lab: 五 一 九 六 五 
@@ -1343,9 +1343,9 @@ acc: 80.00 % N: 5 C: 4 S: 0 D: 1 I: 0
 lab: 五 一 零 二 八 
 rec: 五    零 二 八 
 fid: astmic-fsi105-sen_0036
-acc: 100.00 % N: 5 C: 5 S: 0 D: 0 I: 0
+acc: 80.00 % N: 5 C: 4 S: 0 D: 1 I: 0
 lab: 一 零 五 四 三 
-rec: 一 零 五 四 三 
+rec: 一    五 四 三 
 fid: astmic-fsi105-sen_0037
 acc: 60.00 % N: 5 C: 3 S: 0 D: 2 I: 0
 lab: 四 五 二 二 八 
@@ -1501,7 +1501,7 @@ rec: 四 零 六 七 三 五
 fid: astmic-fsi106-sen_0014
 acc: 83.33 % N: 6 C: 5 S: 1 D: 0 I: 0
 lab: 一 二 零 六 四 六 
-rec: 一 六 零 六 四 六 
+rec: 一 九 零 六 四 六 
 fid: astmic-fsi106-sen_0015
 acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
 lab: 六 四 一 五 零 四 
@@ -1603,9 +1603,9 @@ acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
 lab: 五 八 零 九 九 八 
 rec: 五 八 零 九 九 八 
 fid: astmic-fsi106-sen_0040
-acc: 83.33 % N: 6 C: 6 S: 0 D: 0 I: 1
-lab: 零 九 四    五 九 六 
-rec: 零 九 四 六 五 九 六 
+acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
+lab: 零 九 四 五 九 六 
+rec: 零 九 四 五 九 六 
 fid: astmic-fsi106-sen_0041
 acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
 lab: 一 五 七 八 四 九 
@@ -1631,9 +1631,9 @@ acc: 83.33 % N: 6 C: 5 S: 1 D: 0 I: 0
 lab: 八 一 五 二 零 七 
 rec: 八 一 五 二 零 一 
 fid: astmic-fsi106-sen_0047
-acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
+acc: 83.33 % N: 6 C: 5 S: 0 D: 1 I: 0
 lab: 五 零 七 一 五 三 
-rec: 五 零 七 一 五 三 
+rec: 五 零 七    五 三 
 fid: astmic-fsi106-sen_0048
 acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
 lab: 四 零 六 七 三 五 
@@ -1655,9 +1655,9 @@ acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
 lab: 零 七 五 二 五 四 
 rec: 零 七 五 二 五 四 
 fid: astmic-fsi106-sen_0053
-acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
+acc: 83.33 % N: 6 C: 5 S: 1 D: 0 I: 0
 lab: 一 九 四 零 七 二 
-rec: 一 九 四 零 七 二 
+rec: 七 九 四 零 七 二 
 fid: astmic-fsi106-sen_0054
 acc: 83.33 % N: 6 C: 5 S: 0 D: 1 I: 0
 lab: 三 五 五 零 六 零 
@@ -1679,9 +1679,9 @@ acc: 100.00 % N: 6 C: 6 S: 0 D: 0 I: 0
 lab: 一 九 八 六 八 一 
 rec: 一 九 八 六 八 一 
 fid: astmic-fsi106-sen_0059
-acc: 66.67 % N: 6 C: 4 S: 0 D: 2 I: 0
+acc: 83.33 % N: 6 C: 5 S: 0 D: 1 I: 0
 lab: 二 七 五 五 一 一 
-rec: 二 七 五    一    
+rec: 二 七 五    一 一 
 fid: astmic-fsi106-sen_0060
 acc: 83.33 % N: 6 C: 5 S: 0 D: 1 I: 0
 lab: 九 三 八 二 二 五 
@@ -1695,9 +1695,9 @@ acc: 85.71 % N: 7 C: 6 S: 0 D: 1 I: 0
 lab: 七 一 二 六 三 四 七 
 rec: 七    二 六 三 四 七 
 fid: astmic-fsi107-sen_0002
-acc: 85.71 % N: 7 C: 6 S: 0 D: 1 I: 0
+acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 七 七 六 零 三 三 二 
-rec: 七 七 六 零 三    二 
+rec: 七 七 六 零 三 三 二 
 fid: astmic-fsi107-sen_0003
 acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 二 九 九 零 零 九 二 
@@ -1707,9 +1707,9 @@ acc: 85.71 % N: 7 C: 6 S: 0 D: 1 I: 0
 lab: 六 四 七 八 九 一 一 
 rec: 六 四 七 八 九 一    
 fid: astmic-fsi107-sen_0005
-acc: 85.71 % N: 7 C: 6 S: 1 D: 0 I: 0
+acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 零 九 六 一 六 四 五 
-rec: 零 九 六 一 九 四 五 
+rec: 零 九 六 一 六 四 五 
 fid: astmic-fsi107-sen_0006
 acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 二 二 三 一 零 零 一 
@@ -1763,9 +1763,9 @@ acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 零 五 二 六 零 八 六 
 rec: 零 五 二 六 零 八 六 
 fid: astmic-fsi107-sen_0019
-acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
-lab: 九 五 一 二 八 零 七 
-rec: 九 五 一 二 八 零 七 
+acc: 85.71 % N: 7 C: 7 S: 0 D: 0 I: 1
+lab: 九 五 一    二 八 零 七 
+rec: 九 五 一 九 二 八 零 七 
 fid: astmic-fsi107-sen_0020
 acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 八 五 四 九 零 四 一 
@@ -1775,9 +1775,9 @@ acc: 85.71 % N: 7 C: 6 S: 0 D: 1 I: 0
 lab: 二 零 六 九 五 五 四 
 rec: 二 零 六 九 五    四 
 fid: astmic-fsi107-sen_0022
-acc: 85.71 % N: 7 C: 7 S: 0 D: 0 I: 1
-lab: 六    四 三 一 三 六 八 
-rec: 六 五 四 三 一 三 六 八 
+acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
+lab: 六 四 三 一 三 六 八 
+rec: 六 四 三 一 三 六 八 
 fid: astmic-fsi107-sen_0023
 acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 六 零 七 零 四 八 五 
@@ -1811,9 +1811,9 @@ acc: 71.43 % N: 7 C: 5 S: 1 D: 1 I: 0
 lab: 一 零 四 四 八 一 一 
 rec:    零 四 四 八 零 一 
 fid: astmic-fsi107-sen_0031
-acc: 85.71 % N: 7 C: 6 S: 0 D: 1 I: 0
+acc: 71.43 % N: 7 C: 5 S: 0 D: 2 I: 0
 lab: 四 八 四 六 一 一 七 
-rec: 四 八 四 六 一    七 
+rec:    八 四 六 一    七 
 fid: astmic-fsi107-sen_0032
 acc: 85.71 % N: 7 C: 6 S: 0 D: 1 I: 0
 lab: 一 三 四 七 七 九 七 
@@ -1891,9 +1891,9 @@ acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 八 六 七 零 九 五 一 
 rec: 八 六 七 零 九 五 一 
 fid: astmic-fsi107-sen_0051
-acc: 85.71 % N: 7 C: 7 S: 0 D: 0 I: 1
-lab: 三 五 一 八 六    一 八 
-rec: 三 五 一 八 六 五 一 八 
+acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
+lab: 三 五 一 八 六 一 八 
+rec: 三 五 一 八 六 一 八 
 fid: astmic-fsi107-sen_0052
 acc: 100.00 % N: 7 C: 7 S: 0 D: 0 I: 0
 lab: 二 三 九 四 二 四 零 
@@ -1920,6 +1920,6 @@ lab: 七 八 二 三 五 六 一
 rec: 七 八 二 三 五 六 一 
 ===========================================================================
 
-overall accuracy = 95.05 % N: 1737 C: 1661 S: 21 D: 55 I: 10
+overall accuracy = 95.16 % N: 1737 C: 1660 S: 20 D: 57 I: 7
 
 ===========================================================================
